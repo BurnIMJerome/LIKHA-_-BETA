@@ -8,7 +8,7 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](installer-output/LikhaSetup.exe)
+[Download Likha Installer](installer-output/)
 
 Beta Version Release Note: click here
 
