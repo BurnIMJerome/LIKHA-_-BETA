@@ -10,7 +10,7 @@ Download link placeholder:
 
 [Download Likha Installer](installer-output/LikhaSetup.exe)
 
-Replace this placeholder with the final installer path or release URL when publishing a build.
+Beta Version Release Note: click here
 
 ## What Likha Does
 
