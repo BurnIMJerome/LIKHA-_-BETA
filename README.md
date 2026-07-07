@@ -8,7 +8,7 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](#)
+[Download Likha Installer](installer-output/LikhaSetup.exe)
 
 Replace this placeholder with the final installer path or release URL when publishing a build.
 
