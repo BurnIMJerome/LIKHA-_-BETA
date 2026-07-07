@@ -1,0 +1,82 @@
+# Features
+
+## Process Designer
+
+- Drag or double-click activities into a workflow.
+- Edit properties in a right-side properties panel.
+- Use variables, loop items, operation expressions, and activity outputs.
+- Run flows in designer mode.
+- View live logs and output.
+
+## Control Room
+
+- Flows
+- Scheduler
+- Run Logs
+- Global Variables
+- Queue Management
+- Robots
+- AI Settings
+- Licensing placeholder
+
+## Automation Capabilities
+
+- Desktop automation
+- Browser automation
+- Excel automation
+- Data tables
+- File actions
+- API requests
+- Scripting
+- Queues
+- Mouse and keyboard
+- Message boxes
+- Monitor control
+- Flow control
+- AI activities
+- Smart rule-based operations
+- Event triggers
+
+## Runtime Capabilities
+
+- Attended designer runs.
+- Local unattended service and user agent.
+- Distributed Control Room and VM robots.
+- Robot job queue and heartbeats.
+- Logs and output variables.
+
+## Existing Activity Guides
+
+The detailed activity pages remain in this folder and are linked from the grouped activity documentation pages.
+
+## Activity Documentation Structure
+
+```text
+Documentation/
+  Activities/
+    README.md
+    Desktop Automation/
+      README.md
+    Browser Automation/
+      README.md
+    AI Capabilities/
+      README.md
+    Smart Operations/
+      README.md
+    Excel Automation/
+      README.md
+    Data and Data Table/
+      README.md
+    Flow Control and Loops/
+      README.md
+    Input Monitor and Message/
+      README.md
+    Files Queues API and Scripting/
+      README.md
+    Event Triggers/
+      README.md
+```
+
+Start here:
+
+[Activities/README.md](Activities/README.md)
