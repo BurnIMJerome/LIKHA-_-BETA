@@ -1,4 +1,4 @@
-# Founder's Manifesto
+# Developer Manifesto
 
 ## Why I Built Likha
 
