@@ -1,0 +1,84 @@
+# Architecture
+
+Likha can run as a single-machine attended studio or as a distributed Control Room with unattended robot VMs.
+
+## Core Components
+
+- Desktop shell: `desktop.py`, using pywebview.
+- Web app and API: `app/main.py`, using FastAPI.
+- Workflow engine: `app/engine.py`.
+- Local database: SQLite under `data/`.
+- Designer UI: `static/studio.html`, `static/studio.js`, and CSS.
+- Robot service: `app/robot_service.py`.
+- User agent: `app/user_agent.py`.
+- Remote robot runtime helpers: `app/robot_runtime.py`.
+
+## Attended Setup
+
+```text
+User workstation
+  Likha desktop app
+  Process Designer
+  Local SQLite database
+  Workflow engine
+  Browser/Desktop automation in the active user session
+```
+
+Use this setup when one user builds and runs workflows on the same machine.
+
+Typical command:
+
+```bat
+run_desktop.bat
+```
+
+## Unattended Setup
+
+```text
+Robot machine
+  Likha Control Room
+  LikhaRobotService
+  LikhaUserAgent
+  SQLite database
+  Schedules, event triggers, robot jobs
+```
+
+Use this setup when schedules, trigger-based runs, or background robot jobs should run without manually clicking Run in the designer.
+
+`LikhaRobotService` supervises schedules and jobs.
+
+`LikhaUserAgent` runs inside the logged-in Windows session for browser, desktop, mouse, keyboard, monitor, and message box activities.
+
+See:
+
+- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
+- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+
+## Server VM Setup
+
+```text
+Control Room server
+  Likha Control Room
+  SQLite database
+  Scheduler
+  Queue Management
+  Robot jobs
+  Logs
+  HTTP API
+
+Robot VM 1..N
+  LikhaRobotService
+  LikhaUserAgent
+  Browser/Desktop/Excel/UI automation
+```
+
+Use this setup when a central server owns workflows, schedules, queues, robot registrations, and logs while separate VM robots execute jobs.
+
+See:
+
+[Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+
+## Runtime Rule
+
+Designer Run should execute in the designer. Unattended queueing should happen only when a schedule, event trigger, Control Room job, or unattended robot run requests it.
+
