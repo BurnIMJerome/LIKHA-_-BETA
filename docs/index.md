@@ -1,4 +1,4 @@
-#﻿ Likha RPA
+# Likha RPA
 
 Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
@@ -167,7 +167,7 @@ The product direction is:
 
 Grouped activity documentation:
 
-[Activities](Activities/README.md)
+[Activities](05%20-%20Features.md)
 
 Image repository:
 
@@ -224,7 +224,7 @@ New users:
 
 Builders:
 
-[Activities](Activities/README.md)
+[Activities](05%20-%20Features.md)
 
 Administrators:
 
