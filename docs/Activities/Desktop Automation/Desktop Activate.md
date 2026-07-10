@@ -1,4 +1,8 @@
-﻿# Desktop Activate
+---
+layout: default
+---
+
+# Desktop Activate
 
 ![Likha Process Designer](../../images/process-designer.png)
 

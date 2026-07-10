@@ -1,4 +1,8 @@
-﻿# Desktop Screenshot
+---
+layout: default
+---
+
+# Desktop Screenshot
 
 ![Likha Process Designer](../../images/process-designer.png)
 

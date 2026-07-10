@@ -1,4 +1,8 @@
-﻿![Likha Control Room - Queue Management](../../images/control-room-queues.png)
+---
+layout: default
+---
+
+![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 
 ## Scripting activities
 

@@ -1,4 +1,8 @@
-﻿# Rename File
+---
+layout: default
+---
+
+# Rename File
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

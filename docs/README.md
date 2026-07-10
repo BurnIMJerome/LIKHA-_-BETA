@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Likha RPA
 
 Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
@@ -42,7 +46,7 @@ Automate Windows applications using selectors, OCR/image fallback, hotkeys, scre
 
 Start here:
 
-[Desktop Automation](08%20-%20Desktop%20Automation.md)
+[Desktop Automation](08%20-%20Desktop%20Automation.html)
 
 ### Browser Automation
 
@@ -50,7 +54,7 @@ Automate websites using BrowserInstance variables, selector picking, highlightin
 
 Start here:
 
-[Browser Automation](09%20-%20Browser%20Automation.md)
+[Browser Automation](09%20-%20Browser%20Automation.html)
 
 ### Excel Automation
 
@@ -58,7 +62,7 @@ Launch Excel, read ranges, write ranges, read and write cells, execute macros, g
 
 Start here:
 
-[Excel Automation](11%20-%20Excel%20Automation.md)
+[Excel Automation](11%20-%20Excel%20Automation.html)
 
 ### Control Room
 
@@ -68,7 +72,7 @@ Use Control Room to manage flows, schedules, run logs, global variables, queues,
 
 Start here:
 
-[Quick Start](07%20-%20Quick%20Start.md)
+[Quick Start](07%20-%20Quick%20Start.html)
 
 ### Unattended Robots
 
@@ -78,7 +82,7 @@ Run scheduled and triggered jobs through `LikhaRobotService` and `LikhaUserAgent
 
 Start here:
 
-[Orchestrator](17%20-%20Orchestrator.md)
+[Orchestrator](17%20-%20Orchestrator.html)
 
 ### AI Integration
 
@@ -88,7 +92,7 @@ Bring your own AI provider and configure it in Control Room. Likha provides work
 
 Start here:
 
-[AI Integration](10%20-%20AI%20Integration.md)
+[AI Integration](10%20-%20AI%20Integration.html)
 
 ## Advantages
 
@@ -144,34 +148,34 @@ The product direction is:
 
 ## Documentation Map
 
-- [01 - Founder's Manifesto](01%20-%20Dev's%20Manifesto.md)
-- [02 - Product Overview](02%20-%20Product%20Overview.md)
-- [03 - Why Likha](03%20-%20Why%20Likha.md)
-- [04 - Architecture](04%20-%20Architecture.md)
-- [05 - Features](05%20-%20Features.md)
-- [06 - Installation Guide](06%20-%20Installation%20Guide.md)
-- [07 - Quick Start](07%20-%20Quick%20Start.md)
-- [08 - Desktop Automation](08%20-%20Desktop%20Automation.md)
-- [09 - Browser Automation](09%20-%20Browser%20Automation.md)
-- [10 - AI Integration](10%20-%20AI%20Integration.md)
-- [11 - Excel Automation](11%20-%20Excel%20Automation.md)
-- [12 - Data and Data Table Activities](12%20-%20Data%20and%20Data%20Table%20Activities.md)
-- [13 - Flow Control and Loops](13%20-%20Flow%20Control%20and%20Loops.md)
-- [14 - Input, Monitor, and Message Activities](14%20-%20Input,%20Monitor,%20and%20Message%20Activities.md)
-- [15 - Files, Queues, API, and Scripting](15%20-%20Files,%20Queues,%20API,%20and%20Scripting.md)
-- [16 - Event Triggers](16%20-%20Event%20Triggers.md)
-- [17 - Orchestrator](17%20-%20Orchestrator.md)
-- [18 - Licensing](18%20-%20Licensing.md)
-- [19 - Roadmap](19%20-%20Roadmap.md)
-- [20 - FAQ](20%20-%20FAQ.md)
+- [01 - Founder's Manifesto](01%20-%20Dev's%20Manifesto.html)
+- [02 - Product Overview](02%20-%20Product%20Overview.html)
+- [03 - Why Likha](03%20-%20Why%20Likha.html)
+- [04 - Architecture](04%20-%20Architecture.html)
+- [05 - Features](05%20-%20Features.html)
+- [06 - Installation Guide](06%20-%20Installation%20Guide.html)
+- [07 - Quick Start](07%20-%20Quick%20Start.html)
+- [08 - Desktop Automation](08%20-%20Desktop%20Automation.html)
+- [09 - Browser Automation](09%20-%20Browser%20Automation.html)
+- [10 - AI Integration](10%20-%20AI%20Integration.html)
+- [11 - Excel Automation](11%20-%20Excel%20Automation.html)
+- [12 - Data and Data Table Activities](12%20-%20Data%20and%20Data%20Table%20Activities.html)
+- [13 - Flow Control and Loops](13%20-%20Flow%20Control%20and%20Loops.html)
+- [14 - Input, Monitor, and Message Activities](14%20-%20Input,%20Monitor,%20and%20Message%20Activities.html)
+- [15 - Files, Queues, API, and Scripting](15%20-%20Files,%20Queues,%20API,%20and%20Scripting.html)
+- [16 - Event Triggers](16%20-%20Event%20Triggers.html)
+- [17 - Orchestrator](17%20-%20Orchestrator.html)
+- [18 - Licensing](18%20-%20Licensing.html)
+- [19 - Roadmap](19%20-%20Roadmap.html)
+- [20 - FAQ](20%20-%20FAQ.html)
 
 Grouped activity documentation:
 
-[Activities](05%20-%20Features.md)
+[Activities](05%20-%20Features.html)
 
 Image repository:
 
-[images](images/README.md)
+[images](images/README.html)
 
 ## Release Notes
 
@@ -220,16 +224,16 @@ Planned documentation and product areas:
 
 New users:
 
-[Quick Start](07%20-%20Quick%20Start.md)
+[Quick Start](07%20-%20Quick%20Start.html)
 
 Builders:
 
-[Activities](05%20-%20Features.md)
+[Activities](05%20-%20Features.html)
 
 Administrators:
 
-[Architecture](04%20-%20Architecture.md)
+[Architecture](04%20-%20Architecture.html)
 
 Robot VM setup:
 
-[Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+[Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)

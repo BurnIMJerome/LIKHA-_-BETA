@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AI Vision
 
 ![Likha Control Room - AI Settings](../../images/control-room-ai-settings.png)
@@ -38,5 +42,5 @@ status_code: AIVisionStatusCode
 
 ## Notes
 
-Use a clear image with readable text or visible objects. If the image contains a table and the next step needs rows, consider [AI Table Extract](AI%20Table%20Extract.md).
+Use a clear image with readable text or visible objects. If the image contains a table and the next step needs rows, consider [AI Table Extract](AI%20Table%20Extract.html).
 

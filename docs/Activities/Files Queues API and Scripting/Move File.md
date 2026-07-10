@@ -1,4 +1,8 @@
-﻿# Move File
+---
+layout: default
+---
+
+# Move File
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

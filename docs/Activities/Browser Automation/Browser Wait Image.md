@@ -1,4 +1,8 @@
-﻿# Browser Wait for Image
+---
+layout: default
+---
+
+# Browser Wait for Image
 
 ![Likha Process Designer](../../images/process-designer.png)
 

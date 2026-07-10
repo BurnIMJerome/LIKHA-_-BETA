@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Architecture
 
 Likha can run as a single-machine attended studio or as a distributed Control Room with unattended robot VMs.
@@ -51,8 +55,8 @@ Use this setup when schedules, trigger-based runs, or background robot jobs shou
 
 See:
 
-- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
-- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
+- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
 
 ## Server VM Setup
 
@@ -76,7 +80,7 @@ Use this setup when a central server owns workflows, schedules, queues, robot re
 
 See:
 
-[Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+[Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 
 ## Runtime Rule
 

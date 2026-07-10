@@ -1,4 +1,8 @@
-﻿# Set Variable
+---
+layout: default
+---
+
+# Set Variable
 
 ![Likha Process Designer](../../images/process-designer.png)
 

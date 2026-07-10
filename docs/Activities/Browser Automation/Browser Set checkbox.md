@@ -1,4 +1,8 @@
-﻿# Browser Set checkbox
+---
+layout: default
+---
+
+# Browser Set checkbox
 
 ![Likha Process Designer](../../images/process-designer.png)
 

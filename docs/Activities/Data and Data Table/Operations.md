@@ -1,4 +1,8 @@
-﻿# Operations
+---
+layout: default
+---
+
+# Operations
 
 ![Likha Process Designer](../../images/process-designer.png)
 

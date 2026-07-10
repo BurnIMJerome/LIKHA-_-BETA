@@ -1,26 +1,30 @@
+---
+layout: default
+---
+
 # Data And Data Table Activities
 
 These activities manipulate variables, values, and DataTables.
 
 ## Data Activities
 
-- [Set Variable.md](Activities/Data%20and%20Data%20Table/Set%20Variable.md)
-- [Convert Text to Number.md](Activities/Data%20and%20Data%20Table/Convert%20Text%20to%20Number.md)
-- [Convert Number to Text.md](Activities/Data%20and%20Data%20Table/Convert%20Number%20to%20Text.md)
-- [Convert Text to Date Time.md](Activities/Data%20and%20Data%20Table/Convert%20Text%20to%20Date%20Time.md)
-- [Convert Date Time to Text.md](Activities/Data%20and%20Data%20Table/Convert%20Date%20Time%20to%20Text.md)
-- [Operations.md](Activities/Data%20and%20Data%20Table/Operations.md)
+- [Set Variable.md](Activities/Data%20and%20Data%20Table/Set%20Variable.html)
+- [Convert Text to Number.md](Activities/Data%20and%20Data%20Table/Convert%20Text%20to%20Number.html)
+- [Convert Number to Text.md](Activities/Data%20and%20Data%20Table/Convert%20Number%20to%20Text.html)
+- [Convert Text to Date Time.md](Activities/Data%20and%20Data%20Table/Convert%20Text%20to%20Date%20Time.html)
+- [Convert Date Time to Text.md](Activities/Data%20and%20Data%20Table/Convert%20Date%20Time%20to%20Text.html)
+- [Operations.md](Activities/Data%20and%20Data%20Table/Operations.html)
 
 ## Data Table Activities
 
-- [Create New Data Table.md](Activities/Data%20and%20Data%20Table/Create%20New%20Data%20Table.md)
-- [Insert Row.md](Activities/Data%20and%20Data%20Table/Insert%20Row.md)
-- [Insert Column.md](Activities/Data%20and%20Data%20Table/Insert%20Column.md)
-- [Delete Row.md](Activities/Data%20and%20Data%20Table/Delete%20Row.md)
-- [Delete Column.md](Activities/Data%20and%20Data%20Table/Delete%20Column.md)
-- [Delete Empty Rows.md](Activities/Data%20and%20Data%20Table/Delete%20Empty%20Rows.md)
-- [Delete Duplicate Rows.md](Activities/Data%20and%20Data%20Table/Delete%20Duplicate%20Rows.md)
-- [Filter Data Table.md](Activities/Data%20and%20Data%20Table/Filter%20Data%20Table.md)
+- [Create New Data Table.md](Activities/Data%20and%20Data%20Table/Create%20New%20Data%20Table.html)
+- [Insert Row.md](Activities/Data%20and%20Data%20Table/Insert%20Row.html)
+- [Insert Column.md](Activities/Data%20and%20Data%20Table/Insert%20Column.html)
+- [Delete Row.md](Activities/Data%20and%20Data%20Table/Delete%20Row.html)
+- [Delete Column.md](Activities/Data%20and%20Data%20Table/Delete%20Column.html)
+- [Delete Empty Rows.md](Activities/Data%20and%20Data%20Table/Delete%20Empty%20Rows.html)
+- [Delete Duplicate Rows.md](Activities/Data%20and%20Data%20Table/Delete%20Duplicate%20Rows.html)
+- [Filter Data Table.md](Activities/Data%20and%20Data%20Table/Filter%20Data%20Table.html)
 
 ## Common Use Cases
 

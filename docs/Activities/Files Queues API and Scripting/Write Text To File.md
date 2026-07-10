@@ -1,4 +1,8 @@
-﻿# Write Text To File
+---
+layout: default
+---
+
+# Write Text To File
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

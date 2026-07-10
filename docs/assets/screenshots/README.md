@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Screenshot Repository
 
 This folder stores product screenshots used by the Likha documentation.

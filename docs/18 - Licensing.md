@@ -1,4 +1,8 @@
-﻿# Licensing
+---
+layout: default
+---
+
+# Licensing
 
 Placeholder.
 

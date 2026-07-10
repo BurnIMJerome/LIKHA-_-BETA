@@ -1,4 +1,8 @@
-﻿# Set Screen Resolution
+---
+layout: default
+---
+
+# Set Screen Resolution
 
 ![Likha Process Designer](../../images/process-designer.png)
 

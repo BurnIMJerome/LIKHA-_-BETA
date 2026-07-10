@@ -1,4 +1,8 @@
-﻿# Browser Press button on web page
+---
+layout: default
+---
+
+# Browser Press button on web page
 
 ![Likha Process Designer](../../images/process-designer.png)
 

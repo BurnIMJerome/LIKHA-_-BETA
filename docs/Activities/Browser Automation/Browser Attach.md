@@ -1,4 +1,8 @@
-﻿# Browser Attach
+---
+layout: default
+---
+
+# Browser Attach
 
 ![Likha Process Designer](../../images/process-designer.png)
 

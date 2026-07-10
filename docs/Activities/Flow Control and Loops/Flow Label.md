@@ -1,4 +1,8 @@
-﻿# Label
+---
+layout: default
+---
+
+# Label
 
 ![Likha Process Designer](../../images/process-designer.png)
 

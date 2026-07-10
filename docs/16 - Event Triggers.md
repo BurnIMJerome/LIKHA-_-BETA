@@ -1,10 +1,14 @@
+---
+layout: default
+---
+
 # Event Triggers
 
 Event triggers start workflows from external or system events.
 
 This overview reuses the detailed trigger guide:
 
-[Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+[Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
 
 ## Trigger Types
 

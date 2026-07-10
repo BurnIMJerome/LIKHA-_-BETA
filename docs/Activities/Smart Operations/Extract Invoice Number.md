@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Extract Invoice Number
 
 ![Likha Process Designer](../../images/process-designer.png)

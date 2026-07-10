@@ -1,4 +1,8 @@
-﻿# Delete Empty Rows
+---
+layout: default
+---
+
+# Delete Empty Rows
 
 ![Likha Process Designer](../../images/process-designer.png)
 

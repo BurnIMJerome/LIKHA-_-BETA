@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Product Overview
 
 Likha is a Windows-first RPA studio and Control Room for building, running, and monitoring automation workflows.
@@ -32,8 +36,8 @@ It supports:
 
 ## Existing References
 
-- [README.md](../README.md)
-- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
-- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
-- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+- [README.md](../README.html)
+- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
+- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
+- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
 

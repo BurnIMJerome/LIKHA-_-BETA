@@ -1,4 +1,8 @@
-﻿# Orchestrator
+---
+layout: default
+---
+
+# Orchestrator
 
 The Likha orchestrator capabilities live in Control Room and the robot runtime.
 
@@ -26,7 +30,7 @@ Unattended execution uses:
 
 See:
 
-[Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
+[Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
 
 ## Robots In Control Room
 
@@ -49,7 +53,7 @@ Use this page to inspect:
 
 For a central Control Room and separate robot VMs, see:
 
-[Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+[Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 
 ## Runtime Rule
 

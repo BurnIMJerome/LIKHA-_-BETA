@@ -1,4 +1,8 @@
-﻿# Desktop Extract Text
+---
+layout: default
+---
+
+# Desktop Extract Text
 
 ![Likha Process Designer](../../images/process-designer.png)
 

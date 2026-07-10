@@ -1,4 +1,8 @@
-﻿# Browser Wait Element
+---
+layout: default
+---
+
+# Browser Wait Element
 
 ![Likha Process Designer](../../images/process-designer.png)
 

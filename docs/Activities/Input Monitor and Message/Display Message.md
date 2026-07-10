@@ -1,4 +1,8 @@
-﻿# Display Message
+---
+layout: default
+---
+
+# Display Message
 
 ![Likha Process Designer](../../images/process-designer.png)
 

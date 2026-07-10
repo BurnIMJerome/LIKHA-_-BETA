@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Smart Equals
 
 ![Likha Process Designer](../../images/process-designer.png)

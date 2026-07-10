@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Why I Built Likha
 I've worked with RPA for years.
 I've built automations for real businesses, maintained bots running in production, migrated platforms, handled licensing discussions, dealt with broken orchestrators, and spent countless hours explaining why a simple automation suddenly needed another license.

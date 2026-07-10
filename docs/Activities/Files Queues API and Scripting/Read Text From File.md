@@ -1,4 +1,8 @@
-﻿# Read Text From File
+---
+layout: default
+---
+
+# Read Text From File
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

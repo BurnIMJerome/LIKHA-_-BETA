@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AI Table Extract
 
 ![Likha Control Room - AI Settings](../../images/control-room-ai-settings.png)

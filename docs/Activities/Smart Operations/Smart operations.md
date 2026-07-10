@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Smart Operations
 
 ![Likha Process Designer](../../images/process-designer.png)
@@ -6,14 +10,14 @@ These are rule-based smart operations powered by algorithms, regex, and fuzzy ma
 
 ## Activities
 
-- [Similarity Score](Similarity%20Score.md)
-- [Smart Equals](Smart%20Equals.md)
-- [Normalize Text](Normalize%20Text.md)
-- [Parse Human Number](Parse%20Human%20Number.md)
-- [Compare Currency](Compare%20Currency.md)
-- [Detect Number Format](Detect%20Number%20Format.md)
-- [Fuzzy Company Match](Fuzzy%20Company%20Match.md)
-- [Extract Invoice Number](Extract%20Invoice%20Number.md)
+- [Similarity Score](Similarity%20Score.html)
+- [Smart Equals](Smart%20Equals.html)
+- [Normalize Text](Normalize%20Text.html)
+- [Parse Human Number](Parse%20Human%20Number.html)
+- [Compare Currency](Compare%20Currency.html)
+- [Detect Number Format](Detect%20Number%20Format.html)
+- [Fuzzy Company Match](Fuzzy%20Company%20Match.html)
+- [Extract Invoice Number](Extract%20Invoice%20Number.html)
 
 ## Summary
 

@@ -1,4 +1,8 @@
-﻿# Case
+---
+layout: default
+---
+
+# Case
 
 ![Likha Process Designer](../../images/process-designer.png)
 

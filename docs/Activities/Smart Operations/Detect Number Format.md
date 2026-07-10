@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Detect Number Format
 
 ![Likha Process Designer](../../images/process-designer.png)

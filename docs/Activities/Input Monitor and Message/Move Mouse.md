@@ -1,4 +1,8 @@
-﻿# Move Mouse
+---
+layout: default
+---
+
+# Move Mouse
 
 ![Likha Process Designer](../../images/process-designer.png)
 

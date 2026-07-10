@@ -1,4 +1,8 @@
-﻿# Run DOS Command
+---
+layout: default
+---
+
+# Run DOS Command
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

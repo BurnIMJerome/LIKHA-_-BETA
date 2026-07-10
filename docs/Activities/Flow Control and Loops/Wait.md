@@ -1,4 +1,8 @@
-﻿# Wait
+---
+layout: default
+---
+
+# Wait
 
 ![Likha Process Designer](../../images/process-designer.png)
 

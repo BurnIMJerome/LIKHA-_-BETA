@@ -1,4 +1,8 @@
-﻿# Delete Duplicate Rows
+---
+layout: default
+---
+
+# Delete Duplicate Rows
 
 ![Likha Process Designer](../../images/process-designer.png)
 

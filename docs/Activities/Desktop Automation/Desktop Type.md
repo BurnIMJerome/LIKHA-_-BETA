@@ -1,4 +1,8 @@
-﻿# Desktop Type
+---
+layout: default
+---
+
+# Desktop Type
 
 ![Likha Process Designer](../../images/process-designer.png)
 

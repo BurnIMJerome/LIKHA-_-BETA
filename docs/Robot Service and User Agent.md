@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## LikhaRobotService and LikhaUserAgent
 
 Likha unattended runtime has two MVP components.

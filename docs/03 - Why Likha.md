@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Why Likha
 
 Likha exists for teams that want practical automation without being forced into a large platform commitment on day one.
@@ -24,5 +28,5 @@ Likha is not trying to copy every feature of mature enterprise RPA suites. It fo
 
 For the longer founder rationale, see:
 
-[Founder's Manifesto.md](Founder's%20Manifesto.md)
+[Founder's Manifesto.md](Founder's%20Manifesto.html)
 

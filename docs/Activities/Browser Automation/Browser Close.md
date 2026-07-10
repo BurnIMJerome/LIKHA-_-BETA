@@ -1,4 +1,8 @@
-﻿# Browser Close
+---
+layout: default
+---
+
+# Browser Close
 
 ![Likha Process Designer](../../images/process-designer.png)
 

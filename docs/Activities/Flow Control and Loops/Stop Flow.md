@@ -1,4 +1,8 @@
-﻿# Stop Flow
+---
+layout: default
+---
+
+# Stop Flow
 
 ![Likha Process Designer](../../images/process-designer.png)
 

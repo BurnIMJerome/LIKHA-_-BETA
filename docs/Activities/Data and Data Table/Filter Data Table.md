@@ -1,4 +1,8 @@
-﻿# Filter Data Table
+---
+layout: default
+---
+
+# Filter Data Table
 
 ![Likha Process Designer](../../images/process-designer.png)
 

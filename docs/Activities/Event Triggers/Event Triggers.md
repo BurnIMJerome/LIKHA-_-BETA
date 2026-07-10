@@ -1,4 +1,8 @@
-﻿# Event Triggers guide
+---
+layout: default
+---
+
+# Event Triggers guide
 
 ![Likha Control Room - Robots](../../images/control-room-robots.png)
 

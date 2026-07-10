@@ -1,4 +1,8 @@
-﻿# Queue Get Next Item
+---
+layout: default
+---
+
+# Queue Get Next Item
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

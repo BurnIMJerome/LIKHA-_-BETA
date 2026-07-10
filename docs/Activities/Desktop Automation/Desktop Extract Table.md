@@ -1,4 +1,8 @@
-﻿# Desktop Extract Table
+---
+layout: default
+---
+
+# Desktop Extract Table
 
 ![Likha Process Designer](../../images/process-designer.png)
 

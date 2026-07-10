@@ -1,4 +1,8 @@
-﻿# Delete Column
+---
+layout: default
+---
+
+# Delete Column
 
 ![Likha Process Designer](../../images/process-designer.png)
 

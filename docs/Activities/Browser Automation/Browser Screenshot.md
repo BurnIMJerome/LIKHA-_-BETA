@@ -1,4 +1,8 @@
-﻿# Browser Screenshot
+---
+layout: default
+---
+
+# Browser Screenshot
 
 ![Likha Process Designer](../../images/process-designer.png)
 

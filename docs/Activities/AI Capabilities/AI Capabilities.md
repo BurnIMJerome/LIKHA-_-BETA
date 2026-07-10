@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AI Capabilities
 
 ![Likha Control Room - AI Settings](../../images/control-room-ai-settings.png)
@@ -10,11 +14,11 @@ AI Capabilities are workflow activities that call the shared AI provider configu
 
 ## Available Activities
 
-- [AI Prompt](AI%20Prompt.md): send a custom system instruction and prompt.
-- [AI Extract Documents Fields](AI%20Extract%20Documents%20Fields.md): extract named fields from document text or readable files.
-- [AI Vision](AI%20Vision.md): analyze an image and return text, JSON, table, chart, barcode, or QR output.
-- [AI Table Extract](AI%20Table%20Extract.md): extract a table from a PDF or image into a DataTable.
-- [AI Knowledge Search (RAG)](AI%20Knowledge%20Search%20RAG.md): answer a question using a file, folder, or link as the knowledge source.
+- [AI Prompt](AI%20Prompt.html): send a custom system instruction and prompt.
+- [AI Extract Documents Fields](AI%20Extract%20Documents%20Fields.html): extract named fields from document text or readable files.
+- [AI Vision](AI%20Vision.html): analyze an image and return text, JSON, table, chart, barcode, or QR output.
+- [AI Table Extract](AI%20Table%20Extract.html): extract a table from a PDF or image into a DataTable.
+- [AI Knowledge Search (RAG)](AI%20Knowledge%20Search%20RAG.html): answer a question using a file, folder, or link as the knowledge source.
 
 ## Shared Configuration
 

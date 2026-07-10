@@ -1,4 +1,8 @@
-﻿![Likha Process Designer](../../images/process-designer.png)
+---
+layout: default
+---
+
+![Likha Process Designer](../../images/process-designer.png)
 
 ## Message Boxes activities
 

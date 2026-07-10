@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Developer Manifesto
 
 ## Why I Built Likha

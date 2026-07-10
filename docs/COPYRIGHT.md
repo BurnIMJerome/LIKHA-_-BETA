@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Copyright Notice
 
 Copyright (c) 2026 Likha. All rights reserved.

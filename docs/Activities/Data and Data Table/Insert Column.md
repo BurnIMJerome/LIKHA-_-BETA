@@ -1,4 +1,8 @@
-﻿# Insert Column
+---
+layout: default
+---
+
+# Insert Column
 
 ![Likha Process Designer](../../images/process-designer.png)
 

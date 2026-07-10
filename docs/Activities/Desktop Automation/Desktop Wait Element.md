@@ -1,4 +1,8 @@
-﻿# Desktop Wait Element
+---
+layout: default
+---
+
+# Desktop Wait Element
 
 ![Likha Process Designer](../../images/process-designer.png)
 

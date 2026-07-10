@@ -1,4 +1,8 @@
-﻿# Queue Add Item
+---
+layout: default
+---
+
+# Queue Add Item
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

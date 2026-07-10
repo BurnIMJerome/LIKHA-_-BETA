@@ -1,4 +1,8 @@
-﻿# Browser Extract Table
+---
+layout: default
+---
+
+# Browser Extract Table
 
 ![Likha Process Designer](../../images/process-designer.png)
 

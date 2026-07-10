@@ -1,4 +1,8 @@
-﻿# Installation Guide
+---
+layout: default
+---
+
+# Installation Guide
 
 ## Development Or Local Desktop Install
 
@@ -73,7 +77,7 @@ tesseract/
 
 See:
 
-[How to Setup OCR Tesseract](How%20to%20Setup%20OCR%20Tesseract.md)
+[How to Setup OCR Tesseract](How%20to%20Setup%20OCR%20Tesseract.html)
 
 ## Robot Runtime
 
@@ -85,7 +89,7 @@ For unattended setup:
 
 See:
 
-- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
-- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
+- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 
 

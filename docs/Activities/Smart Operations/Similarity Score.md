@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Similarity Score
 
 ![Likha Process Designer](../../images/process-designer.png)

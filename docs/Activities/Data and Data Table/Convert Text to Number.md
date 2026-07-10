@@ -1,4 +1,8 @@
-﻿# Convert Text to Number
+---
+layout: default
+---
+
+# Convert Text to Number
 
 ![Likha Process Designer](../../images/process-designer.png)
 

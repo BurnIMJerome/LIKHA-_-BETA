@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Fuzzy Company Match
 
 ![Likha Process Designer](../../images/process-designer.png)

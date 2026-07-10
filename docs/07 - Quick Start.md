@@ -1,4 +1,8 @@
-﻿# Quick Start
+---
+layout: default
+---
+
+# Quick Start
 
 ## Build And Run A Flow
 
@@ -61,7 +65,7 @@ Use Queue Management to create queues, add queue items, process pending work, an
 
 See:
 
-[Queue Management.md](Activities/Files%20Queues%20API%20and%20Scripting/Queue%20Management.md)
+[Queue Management.md](Activities/Files%20Queues%20API%20and%20Scripting/Queue%20Management.html)
 
 ## Robots
 
@@ -71,9 +75,9 @@ Use Robots to monitor robot resources, heartbeats, user agents, robot jobs, and 
 
 See:
 
-- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.md)
-- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
-- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+- [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
+- [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
+- [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
 
 ## AI Settings
 
@@ -83,11 +87,11 @@ Use AI Settings to configure the provider, endpoint URL, API key, model, tempera
 
 See:
 
-[AI Prompt.md](Activities/AI%20Capabilities/AI%20Prompt.md)
+[AI Prompt.md](Activities/AI%20Capabilities/AI%20Prompt.html)
 
 ## License
 
 Licensing is currently represented as a placeholder page:
 
-[18 - Licensing.md](18%20-%20Licensing.md)
+[18 - Licensing.md](18%20-%20Licensing.html)
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Distributed Control Room and VM Robot Setup
 
 This MVP lets Likha run with a central Control Room server and one or more VM robot resources.

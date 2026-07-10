@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # FAQ
 
 ## Is Likha attended or unattended?
@@ -22,7 +26,7 @@ Use Queue Management with `Queue > Add Item`, `Queue > Get Next Item`, and `Queu
 
 See:
 
-[Queue Management.md](Activities/Files%20Queues%20API%20and%20Scripting/Queue%20Management.md)
+[Queue Management.md](Activities/Files%20Queues%20API%20and%20Scripting/Queue%20Management.html)
 
 ## How do I connect AI?
 
@@ -30,7 +34,7 @@ Configure Control Room AI Settings, then use AI activities such as AI Prompt.
 
 See:
 
-[AI Prompt.md](Activities/AI%20Capabilities/AI%20Prompt.md)
+[AI Prompt.md](Activities/AI%20Capabilities/AI%20Prompt.html)
 
 ## Why did Excel blanks appear as None before?
 
@@ -50,5 +54,5 @@ Control Room > Robots > Event triggers
 
 See:
 
-[Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.md)
+[Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
 

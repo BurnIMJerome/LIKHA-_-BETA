@@ -1,4 +1,8 @@
-﻿# Queue Update Item
+---
+layout: default
+---
+
+# Queue Update Item
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

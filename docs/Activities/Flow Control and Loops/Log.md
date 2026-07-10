@@ -1,4 +1,8 @@
-﻿# Log
+---
+layout: default
+---
+
+# Log
 
 ![Likha Process Designer](../../images/process-designer.png)
 

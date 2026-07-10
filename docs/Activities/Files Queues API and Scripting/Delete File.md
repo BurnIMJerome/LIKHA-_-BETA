@@ -1,4 +1,8 @@
-﻿# Delete File
+---
+layout: default
+---
+
+# Delete File
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)
 

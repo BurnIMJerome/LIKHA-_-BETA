@@ -1,4 +1,8 @@
-﻿# Browser Click Image on Webpage
+---
+layout: default
+---
+
+# Browser Click Image on Webpage
 
 ![Likha Process Designer](../../images/process-designer.png)
 

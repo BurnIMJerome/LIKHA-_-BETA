@@ -1,4 +1,8 @@
-﻿# For Each
+---
+layout: default
+---
+
+# For Each
 
 ![Likha Process Designer](../../images/process-designer.png)
 

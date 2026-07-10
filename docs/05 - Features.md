@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Features
 
 ## Process Designer
@@ -79,4 +83,4 @@ Documentation/
 
 Start here:
 
-[Activities/README.md](Activities/README.md)
+[Activities/README.md](Activities/README.html)

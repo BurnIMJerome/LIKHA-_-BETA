@@ -1,4 +1,8 @@
-﻿# Browser Select radio button
+---
+layout: default
+---
+
+# Browser Select radio button
 
 ![Likha Process Designer](../../images/process-designer.png)
 

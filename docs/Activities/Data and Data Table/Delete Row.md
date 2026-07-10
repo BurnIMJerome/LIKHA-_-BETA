@@ -1,4 +1,8 @@
-﻿# Delete Row
+---
+layout: default
+---
+
+# Delete Row
 
 ![Likha Process Designer](../../images/process-designer.png)
 

@@ -1,4 +1,8 @@
-﻿# Close Excel
+---
+layout: default
+---
+
+# Close Excel
 
 ![Likha Process Designer](../../images/process-designer.png)
 

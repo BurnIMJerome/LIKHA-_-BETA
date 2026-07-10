@@ -1,18 +1,22 @@
+---
+layout: default
+---
+
 # Excel Automation
 
 Excel activities work with an ExcelInstance created by Launch Excel.
 
 ## Excel Activities
 
-- [Launch Excel.md](Activities/Excel%20Automation/Launch%20Excel.md)
-- [Read Excel.md](Activities/Excel%20Automation/Read%20Excel.md)
-- [Read Cell Excel.md](Activities/Excel%20Automation/Read%20Cell%20Excel.md)
-- [Write Excel.md](Activities/Excel%20Automation/Write%20Excel.md)
-- [Write Cell Excel.md](Activities/Excel%20Automation/Write%20Cell%20Excel.md)
-- [Get Workbook Sheet Excel.md](Activities/Excel%20Automation/Get%20Workbook%20Sheet%20Excel.md)
-- [Get Last Row Column Excel.md](Activities/Excel%20Automation/Get%20Last%20Row%20Column%20Excel.md)
-- [Execute Macro Excel.md](Activities/Excel%20Automation/Execute%20Macro%20Excel.md)
-- [Close Excel.md](Activities/Excel%20Automation/Close%20Excel.md)
+- [Launch Excel.md](Activities/Excel%20Automation/Launch%20Excel.html)
+- [Read Excel.md](Activities/Excel%20Automation/Read%20Excel.html)
+- [Read Cell Excel.md](Activities/Excel%20Automation/Read%20Cell%20Excel.html)
+- [Write Excel.md](Activities/Excel%20Automation/Write%20Excel.html)
+- [Write Cell Excel.md](Activities/Excel%20Automation/Write%20Cell%20Excel.html)
+- [Get Workbook Sheet Excel.md](Activities/Excel%20Automation/Get%20Workbook%20Sheet%20Excel.html)
+- [Get Last Row Column Excel.md](Activities/Excel%20Automation/Get%20Last%20Row%20Column%20Excel.html)
+- [Execute Macro Excel.md](Activities/Excel%20Automation/Execute%20Macro%20Excel.html)
+- [Close Excel.md](Activities/Excel%20Automation/Close%20Excel.html)
 
 ## Read Range Behavior
 

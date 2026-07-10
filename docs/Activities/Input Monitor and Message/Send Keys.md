@@ -1,4 +1,8 @@
-﻿# Send Keys
+---
+layout: default
+---
+
+# Send Keys
 
 ![Likha Process Designer](../../images/process-designer.png)
 

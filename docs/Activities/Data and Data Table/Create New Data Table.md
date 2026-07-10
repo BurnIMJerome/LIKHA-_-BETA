@@ -1,4 +1,8 @@
-﻿# Create New Data Table
+---
+layout: default
+---
+
+# Create New Data Table
 
 ![Likha Process Designer](../../images/process-designer.png)
 

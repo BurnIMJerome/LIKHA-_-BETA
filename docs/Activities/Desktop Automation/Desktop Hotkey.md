@@ -1,4 +1,8 @@
-﻿# Desktop Hotkey
+---
+layout: default
+---
+
+# Desktop Hotkey
 
 ![Likha Process Designer](../../images/process-designer.png)
 

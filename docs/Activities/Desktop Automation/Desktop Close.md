@@ -1,4 +1,8 @@
-﻿# Desktop Close
+---
+layout: default
+---
+
+# Desktop Close
 
 ![Likha Process Designer](../../images/process-designer.png)
 

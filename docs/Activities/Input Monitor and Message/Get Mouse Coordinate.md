@@ -1,4 +1,8 @@
-﻿# Get Mouse Coordinate
+---
+layout: default
+---
+
+# Get Mouse Coordinate
 
 ![Likha Process Designer](../../images/process-designer.png)
 

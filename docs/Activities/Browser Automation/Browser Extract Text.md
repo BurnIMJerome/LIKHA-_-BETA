@@ -1,4 +1,8 @@
-﻿# Browser Extract Text
+---
+layout: default
+---
+
+# Browser Extract Text
 
 ![Likha Process Designer](../../images/process-designer.png)
 

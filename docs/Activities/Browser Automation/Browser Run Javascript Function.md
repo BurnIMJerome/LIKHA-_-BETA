@@ -1,4 +1,8 @@
-﻿# Browser Run Javascript Function
+---
+layout: default
+---
+
+# Browser Run Javascript Function
 
 ![Likha Process Designer](../../images/process-designer.png)
 

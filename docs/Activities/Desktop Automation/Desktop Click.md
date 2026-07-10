@@ -1,4 +1,8 @@
-﻿# Desktop Click
+---
+layout: default
+---
+
+# Desktop Click
 
 ![Likha Process Designer](../../images/process-designer.png)
 
