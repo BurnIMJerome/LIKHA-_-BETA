@@ -1,3 +1,8 @@
+---
+layout: default
+title: Likha RPA
+---
+
 # Likha RPA
 
 Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
@@ -233,4 +238,3 @@ Administrators:
 Robot VM setup:
 
 [Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
-
