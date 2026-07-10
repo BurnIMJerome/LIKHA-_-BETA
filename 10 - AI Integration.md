@@ -2,7 +2,44 @@
 
 Likha AI activities use Control Room AI Settings. This lets users bring their own provider, endpoint, key, model, and request settings.
 
+Likha supports a Bring Your Own Key model for AI features. This means each user or company connects their own AI provider account instead of sharing a central Likha-owned AI subscription.
+
 ![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
+
+## What This Is For
+
+AI Settings are used by AI-powered activities inside Likha, including:
+
+- AI Prompt
+- AI Vision
+- AI Table Extract
+- AI Extract Document Fields
+- AI Knowledge Search
+- Likha Copilot, when enabled
+
+Once configured, these activities can reuse the same provider endpoint, API key, model, temperature, and token settings.
+
+## Why Bring Your Own Key
+
+Bring Your Own Key gives customers control over:
+
+- AI provider choice
+- API usage cost
+- model selection
+- data handling policies
+- provider billing
+- organization-level access controls
+
+Likha does not need to resell AI credits for this mode. The customer pays their AI provider directly.
+
+## Supported Provider Type
+
+The current AI Settings screen supports OpenAI-compatible chat completion endpoints.
+
+Example endpoint:
+
+```text
+https://api.openai.com/v1/chat/completions
 
 ## AI Activities
 
