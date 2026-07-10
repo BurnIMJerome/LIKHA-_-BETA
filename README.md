@@ -10,7 +10,7 @@ Download link placeholder:
 
 [Download Likha Installer](installer-output/)
 
-Beta Version Release Note: click here
+Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
 
 ## What Likha Does
 
