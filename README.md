@@ -8,9 +8,9 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](#)
+[Download Likha Installer](installer-output/)
 
-Replace this placeholder with the final installer path or release URL when publishing a build.
+Beta Version Release Note: click here
 
 ## What Likha Does
 
@@ -144,7 +144,7 @@ The product direction is:
 
 ## Documentation Map
 
-- [01 - Founder's Manifesto](01%20-%20Founder's%20Manifesto.md)
+- [01 - Founder's Manifesto](01%20-%20Dev's%20Manifesto.md)
 - [02 - Product Overview](02%20-%20Product%20Overview.md)
 - [03 - Why Likha](03%20-%20Why%20Likha.md)
 - [04 - Architecture](04%20-%20Architecture.md)
