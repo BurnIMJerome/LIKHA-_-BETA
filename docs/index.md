@@ -5,6 +5,11 @@ title: Likha RPA
 
 # Likha RPA
 
+<div class="likha-logo-stage" aria-label="Likha RPA logo">
+  <img src="Logo/likha-logo-transparent.png" alt="Likha RPA">
+  <span class="likha-animated-cursor" aria-hidden="true"></span>
+</div>
+
 Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
 It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
@@ -13,7 +18,7 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](installer-output/LikhaSetup.exe)
+[Download Likha Installer](https://github.com/BurnIMJerome/LIKHA-_-BETA/tree/main/docs/installer-output)
 
 Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
 
