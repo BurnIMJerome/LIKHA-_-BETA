@@ -42,7 +42,7 @@ Automate Windows applications using selectors, OCR/image fallback, hotkeys, scre
 
 Start here:
 
-[Desktop Automation](Desktop Automation.md)
+[Desktop Automation](08 - Desktop Automation.md)
 
 ### Browser Automation
 
