@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # AI Integration
 
 Likha AI activities use Control Room AI Settings. This lets users bring their own provider, endpoint, key, model, and request settings.

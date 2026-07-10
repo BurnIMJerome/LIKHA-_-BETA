@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Likha RPA
 
 Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.

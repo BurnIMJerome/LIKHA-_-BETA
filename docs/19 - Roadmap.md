@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Roadmap
 
 This roadmap is a working placeholder and should be adjusted as product priorities change.

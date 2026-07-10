@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Files, Queues, API, And Scripting
 
 This section groups non-UI automation activities used to move data, call systems, and run scripts.

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Desktop Automation
 
 Desktop automation targets Windows desktop applications through UI Automation selectors, OCR/image fallback, and hardware input where needed.

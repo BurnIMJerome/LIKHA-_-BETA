@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Distributed Control Room and VM Robot Setup
 
 This MVP lets Likha run with a central Control Room server and one or more VM robot resources.

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Files, Queues, API, And Scripting Activities
 
 These activities move data, work with queues, call APIs, and run scripts.

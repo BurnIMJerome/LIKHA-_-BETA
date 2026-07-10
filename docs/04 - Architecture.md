@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Architecture
 
 Likha can run as a single-machine attended studio or as a distributed Control Room with unattended robot VMs.

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Orchestrator
 
 The Likha orchestrator capabilities live in Control Room and the robot runtime.

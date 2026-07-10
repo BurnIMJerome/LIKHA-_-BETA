@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # AI Table Extract
 
 ![Likha Control Room - AI Settings](../../images/control-room-ai-settings.png)

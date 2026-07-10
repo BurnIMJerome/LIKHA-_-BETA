@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Product Overview
 
 Likha is a Windows-first RPA studio and Control Room for building, running, and monitoring automation workflows.

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Why Likha
 
 Likha exists for teams that want practical automation without being forced into a large platform commitment on day one.

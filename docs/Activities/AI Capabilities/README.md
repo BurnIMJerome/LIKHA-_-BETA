@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # AI Capabilities Activities
 
 Provider-backed AI activities use Control Room AI Settings for the endpoint, API key, model, temperature, and max tokens.

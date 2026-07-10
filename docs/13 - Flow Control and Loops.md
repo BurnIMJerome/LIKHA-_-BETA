@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Flow Control And Loops
 
 Flow control activities define branching, looping, stopping, and subflow behavior.

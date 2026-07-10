@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Run VBScript
 
 ![Likha Control Room - Queue Management](../../images/control-room-queues.png)

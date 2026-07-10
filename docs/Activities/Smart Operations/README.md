@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<nav class="doc-home-link"><a href="{{ '/docs/' | relative_url }}">&larr; Go back Home</a></nav>
+
 # Smart Operations Activities
 
 Smart Operations are local rule-based helpers for fuzzy matching, text normalization, number parsing, currency comparison, format detection, and invoice-number extraction. They do not call an AI provider and do not require Control Room AI Settings.
