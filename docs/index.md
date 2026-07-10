@@ -13,7 +13,7 @@ It is designed for teams that want practical automation without being forced int
 
 Download link placeholder:
 
-[Download Likha Installer](installer-output/)
+[Download Likha Installer](installer-output/LikhaSetup.exe)
 
 Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
 
@@ -47,7 +47,7 @@ Automate Windows applications using selectors, OCR/image fallback, hotkeys, scre
 
 Start here:
 
-([Desktop Automation](08%20-%20Desktop%20Automation.html))
+[Desktop Automation](08%20-%20Desktop%20Automation.html)
 
 ### Browser Automation
 
