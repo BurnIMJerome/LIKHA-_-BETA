@@ -3,7 +3,11 @@ description: Documentation for the Likha Windows-first RPA platform.
 theme: jekyll-theme-cayman
 
 plugins:
+  - jekyll-optional-front-matter
   - jekyll-relative-links
+
+optional_front_matter:
+  remove_originals: true
 
 relative_links:
   enabled: true
@@ -11,4 +15,3 @@ relative_links:
 
 include:
   - README.md
-
