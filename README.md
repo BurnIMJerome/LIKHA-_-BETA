@@ -166,6 +166,8 @@ The product direction is:
 - [18 - Licensing](18%20-%20Licensing.md)
 - [19 - Roadmap](19%20-%20Roadmap.md)
 - [20 - FAQ](20%20-%20FAQ.md)
+- [AI Screen Control Activities](docs/Activities/AI%20Screen%20Control/README.md)
+- [System Activities](docs/Activities/System/README.md)
 
 Grouped activity documentation:
 

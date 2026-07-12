@@ -21,6 +21,12 @@ AI Settings are used by AI-powered activities inside Likha, including:
 - AI Table Extract
 - AI Extract Document Fields
 - AI Knowledge Search
+- AI Understand Screen
+- AI Find Element
+- AI Click
+- AI Type into Text field
+- AI Read Screen
+- AI Verify Screen
 - Likha Copilot, when enabled
 
 Once configured, these activities can reuse the same provider endpoint, API key, model, temperature, and token settings.
@@ -46,6 +52,7 @@ Example endpoint:
 
 ```text
 https://api.openai.com/v1/chat/completions
+```
 
 ## AI Activities
 
@@ -55,6 +62,20 @@ https://api.openai.com/v1/chat/completions
 - [AI Vision.md](Activities/AI%20Capabilities/AI%20Vision.html)
 - [AI Table Extract.md](Activities/AI%20Capabilities/AI%20Table%20Extract.html)
 - [AI Knowledge Search RAG.md](Activities/AI%20Capabilities/AI%20Knowledge%20Search%20RAG.html)
+
+## AI Screen Control Activities
+
+AI Screen Control uses a vision-capable model together with screenshots, OCR, and Windows UI information to understand and operate visible applications through natural-language instructions.
+
+- [AI Screen Control overview](Activities/AI%20Screen%20Control/README.html)
+- [AI Understand Screen](Activities/AI%20Screen%20Control/AI%20Understand%20Screen.html)
+- [AI Find Element](Activities/AI%20Screen%20Control/AI%20Find%20Element.html)
+- [AI Click](Activities/AI%20Screen%20Control/AI%20Click.html)
+- [AI Type into Text field](Activities/AI%20Screen%20Control/AI%20Type%20into%20Text%20field.html)
+- [AI Read Screen](Activities/AI%20Screen%20Control/AI%20Read%20Screen.html)
+- [AI Verify Screen](Activities/AI%20Screen%20Control/AI%20Verify%20Screen.html)
+
+Keep the target application visible and unlocked. In unattended or VM execution, the Likha User Agent must run inside the active Windows user session.
 
 ## Smart Rule-Based Operations
 
@@ -88,6 +109,9 @@ Configure:
 - Analyze screenshots, receipts, charts, barcodes, and QR codes.
 - Extract table rows from PDFs or images.
 - Ask questions from a policy, SOP, folder, or link.
+- Understand the controls, forms, tables, and text visible on an application screen.
+- Find, click, and type into UI elements described in natural language.
+- Verify that an expected screen or application state is visible.
 
 ## Notes
 
