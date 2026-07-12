@@ -26,7 +26,10 @@ Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearom
 
 Likha helps users automate repetitive work by combining a low-code process designer with a Control Room and robot runtime.
 
-![Likha Process Designer panel tabs](images/process-designer-panels.gif)
+<video controls playsinline preload="metadata" style="width: 100%; max-width: 1200px; height: auto;" aria-label="Likha AI Click activity demonstration">
+  <source src="Video%20Demo/AI%20Click.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
+</video>
 
 Core capabilities:
 
@@ -36,7 +39,9 @@ Core capabilities:
 - Process queue items.
 - Monitor run logs and robot jobs.
 - Use AI Capabilities for prompts, document extraction, vision, table extraction, and knowledge search.
+- Use AI Screen Control to understand, find, click, type into, read, and verify visible application screens.
 - Use Smart Operations for local fuzzy matching, parsing, normalization, and extraction.
+- Use System activities to manage processes, run batch files, and inspect the robot machine and user.
 - Automate Windows desktop applications.
 - Automate modern browsers.
 - Read and write Excel workbooks.

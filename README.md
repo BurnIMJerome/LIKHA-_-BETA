@@ -26,7 +26,9 @@ Core capabilities:
 - Process queue items.
 - Monitor run logs and robot jobs.
 - Use AI Capabilities for prompts, document extraction, vision, table extraction, and knowledge search.
+- Use AI Screen Control to understand, find, click, type into, read, and verify visible application screens.
 - Use Smart Operations for local fuzzy matching, parsing, normalization, and extraction.
+- Use System activities to manage processes, run batch files, and inspect the robot machine and user.
 - Automate Windows desktop applications.
 - Automate modern browsers.
 - Read and write Excel workbooks.

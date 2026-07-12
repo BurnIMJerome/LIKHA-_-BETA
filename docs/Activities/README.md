@@ -15,6 +15,7 @@ The detailed activity pages are grouped by automation area.
 - [Desktop Automation](Desktop%20Automation/README.html)
 - [Browser Automation](Browser%20Automation/README.html)
 - [AI Capabilities](AI%20Capabilities/README.html)
+- [AI Screen Control](AI%20Screen%20Control/README.html)
 - [Smart Operations](Smart%20Operations/README.html)
 - [Excel Automation](Excel%20Automation/README.html)
 - [Data and Data Table](Data%20and%20Data%20Table/README.html)
@@ -22,3 +23,4 @@ The detailed activity pages are grouped by automation area.
 - [Input, Monitor, and Message](Input%20Monitor%20and%20Message/README.html)
 - [Files, Queues, API, and Scripting](Files%20Queues%20API%20and%20Scripting/README.html)
 - [Event Triggers](Event%20Triggers/README.html)
+- [System](System/README.html)

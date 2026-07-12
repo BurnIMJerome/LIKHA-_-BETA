@@ -40,7 +40,9 @@ layout: default
 - Monitor control
 - Flow control
 - AI activities
+- AI Screen Control
 - Smart rule-based operations
+- System activities
 - Event triggers
 
 ## Runtime Capabilities
@@ -67,6 +69,8 @@ Documentation/
       README.md
     AI Capabilities/
       README.md
+    AI Screen Control/
+      README.md
     Smart Operations/
       README.md
     Excel Automation/
@@ -80,6 +84,8 @@ Documentation/
     Files Queues API and Scripting/
       README.md
     Event Triggers/
+      README.md
+    System/
       README.md
 ```
 
