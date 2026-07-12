@@ -28,8 +28,8 @@ Likha helps users automate repetitive work by combining a low-code process desig
 
 ### Demo of AI Screen Controller : Prompt Based UI Automation
 
-<video controls playsinline preload="metadata" style="width: 100%; max-width: 1200px; height: auto;" aria-label="Likha AI Click activity demonstration">
-  <source src="Video%20Demo/AI%20Click.mp4" type="video/mp4">
+<video controls playsinline preload="metadata" poster="Video%20Demo/AI%20Click%20poster%2000-54.jpg" onloadedmetadata="if (this.currentTime &lt; 4) this.currentTime = 4;" style="width: 100%; max-width: 1200px; height: auto;" aria-label="Likha AI Click activity demonstration">
+  <source src="Video%20Demo/AI%20Click.mp4#t=4" type="video/mp4">
   Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
 </video>
 
