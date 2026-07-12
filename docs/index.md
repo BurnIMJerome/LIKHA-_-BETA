@@ -26,6 +26,8 @@ Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearom
 
 Likha helps users automate repetitive work by combining a low-code process designer with a Control Room and robot runtime.
 
+### Demo of AI Screen Controller : Prompt Based UI Automation
+
 <video controls playsinline preload="metadata" style="width: 100%; max-width: 1200px; height: auto;" aria-label="Likha AI Click activity demonstration">
   <source src="Video%20Demo/AI%20Click.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
