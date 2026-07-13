@@ -1,5 +1,5 @@
-title: Likha RPA
-description: Documentation for the Likha Windows-first RPA platform.
+title: Likha Agentic AI and RPA
+description: Documentation for the Likha Windows-first agentic AI and RPA automation platform.
 theme: jekyll-theme-cayman
 
 plugins:
@@ -15,4 +15,3 @@ relative_links:
 
 include:
   - README.md
-

@@ -6,6 +6,18 @@ layout: default
 
 # FAQ
 
+## Is Likha only an RPA tool?
+
+No. Likha combines RPA with agentic AI. Fixed workflows handle predictable, repeatable steps, while Likha Agents can interpret a goal, select approved tools, observe results, and adapt the next action within defined limits.
+
+See [Agents](21%20-%20Agents.html) and [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
+
+## What is the difference between a robot, the Likha User Agent, and a Likha Agent?
+
+- A **robot** is the execution machine or runtime that performs automation jobs.
+- **Likha User Agent** is the Windows-session component used for UI-capable unattended execution.
+- A **Likha Agent** is the goal-driven AI layer that chooses and coordinates approved tools and workflows.
+
 ## Is Likha attended or unattended?
 
 Both. Use the desktop designer for attended building and testing. Use robot service, user agent, schedules, and triggers for unattended execution.

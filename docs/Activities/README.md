@@ -10,6 +10,8 @@ This folder groups Likha activity documentation by automation area.
 
 The detailed activity pages are grouped by automation area.
 
+Activities can be assembled into fixed RPA workflows or exposed as approved tools to a [Likha Agent](../21%20-%20Agents.html).
+
 ## Activity Groups
 
 - [Desktop Automation](Desktop%20Automation/README.html)

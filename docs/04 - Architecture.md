@@ -6,10 +6,14 @@ layout: default
 
 # Architecture
 
-Likha can run as a single-machine attended studio or as a distributed Control Room with unattended robot VMs.
+Likha can run as a single-machine attended studio or as a distributed agentic AI and RPA platform with a Control Room and unattended robot VMs.
+
+The architecture separates decision-making from execution. An agent interprets a goal and selects an approved tool; the workflow engine and robot runtime execute that tool under defined operational controls.
 
 ## Core Components
 
+- Agent runtime: manages goals, task context, tool selection, observations, and completion or escalation decisions.
+- Tool and flow registry: exposes only the workflows and activities approved for an agent.
 - Desktop shell: `desktop.py`, using pywebview.
 - Web app and API: `app/main.py`, using FastAPI.
 - Workflow engine: `app/engine.py`.
@@ -18,6 +22,8 @@ Likha can run as a single-machine attended studio or as a distributed Control Ro
 - Robot service: `app/robot_service.py`.
 - User agent: `app/user_agent.py`.
 - Remote robot runtime helpers: `app/robot_runtime.py`.
+
+See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html) for the full agent execution and governance model.
 
 ## Attended Setup
 

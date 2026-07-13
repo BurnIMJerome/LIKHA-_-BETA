@@ -4,9 +4,9 @@ layout: default
 
 <nav class="doc-home-link"><a href="https://burnimjerome.github.io/LIKHA-_-BETA/">&larr; Go back Home</a></nav>
 
-# Likha RPA
+# Likha Agentic AI and RPA
 
-Likha is a Windows-first RPA platform for building, running, and managing automation workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
+Likha is a Windows-first agentic AI and RPA automation platform for building, running, and managing intelligent agents and workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
 It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
 
@@ -20,19 +20,21 @@ Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearom
 
 ## What Likha Does
 
-Likha helps users automate repetitive work by combining a low-code process designer with a Control Room and robot runtime.
+Likha helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
 
 ![Likha Process Designer panel tabs](images/process-designer-panels.gif)
 
 Core capabilities:
 
+- Create agents that receive goals, use context, select approved Likha tools, and adapt to results.
+- Run agents on governed infrastructure with tool permissions, limits, logs, queues, robots, and human approval points.
 - Build flows visually in Process Designer.
 - Run flows interactively during development.
 - Schedule unattended runs.
 - Process queue items.
 - Monitor run logs and robot jobs.
 - Use AI Capabilities for prompts, document extraction, vision, table extraction, and knowledge search.
-- Use AI Screen Control to understand, find, click, type into, read, and verify visible application screens.
+- Use AI Screen Control to understand, find, click, type into, read, verify, and extract specific details from visible application screens.
 - Use Smart Operations for local fuzzy matching, parsing, normalization, and extraction.
 - Use System activities to manage processes, run batch files, and inspect the robot machine and user.
 - Automate Windows desktop applications.
@@ -43,6 +45,22 @@ Core capabilities:
 - Run robots on local machines or separate VM resources.
 
 ## Product Highlights
+
+### Agents
+
+Build goal-driven automations that can select approved flows and activities, observe structured results, adapt the next action, and request human input when needed.
+
+Start here:
+
+[Agents](21%20-%20Agents.html)
+
+### Agent Infrastructure
+
+Run agents through Likha's Control Room, workflow engine, queues, robot services, active Windows user sessions, AI settings, and operational logs across local or private VM environments.
+
+Start here:
+
+[Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 
 ### Desktop Automation
 
@@ -137,7 +155,7 @@ Likha focuses on the activities automation builders use every day:
 
 ## Product Vision
 
-Likha's vision is to make automation accessible, practical, and owned by the people who build it.
+Likha's vision is to make RPA and agentic AI automation accessible, practical, governable, and owned by the people who build it.
 
 The product direction is:
 
@@ -148,6 +166,8 @@ The product direction is:
 - Keep orchestration optional until it is needed.
 - Support private infrastructure and distributed robot setups.
 - Let users choose their AI provider.
+- Combine adaptive agent decisions with predictable workflow execution.
+- Keep agents bounded by approved tools, credentials, limits, and human approval rules.
 - Build a product that small teams can afford and developers can enjoy using.
 
 ## Documentation Map
@@ -172,6 +192,8 @@ The product direction is:
 - [18 - Licensing](18%20-%20Licensing.html)
 - [19 - Roadmap](19%20-%20Roadmap.html)
 - [20 - FAQ](20%20-%20FAQ.html)
+- [21 - Agents](21%20-%20Agents.html)
+- [22 - Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 - [AI Screen Control Activities](Activities/AI%20Screen%20Control/README.html)
 - [System Activities](Activities/System/README.html)
 
@@ -200,7 +222,9 @@ Included areas:
 - Scheduler
 - Robot service and user agent
 - Event triggers
+- Agents and agent infrastructure
 - AI settings, AI Prompt, AI Vision, document extraction, table extraction, and knowledge search
+- AI Screen Control extraction through Extract Details From...
 - Data Table activities
 - Flow control and loop activities
 - File, API, scripting, monitor, message, and keyboard/mouse activities

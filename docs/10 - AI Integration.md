@@ -10,6 +10,8 @@ Likha AI activities use Control Room AI Settings. This lets users bring their ow
 
 Likha supports a Bring Your Own Key model for AI features. This means each user or company connects their own AI provider account instead of sharing a central Likha-owned AI subscription.
 
+These settings also power Likha Agents. An agent can use the configured model for goal interpretation, context-aware decisions, and tool selection while the Likha runtime performs approved automation actions.
+
 ![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
 
 ## What This Is For
@@ -27,6 +29,7 @@ AI Settings are used by AI-powered activities inside Likha, including:
 - AI Type into Text field
 - AI Read Screen
 - AI Verify Screen
+- Extract Details From...
 - Likha Copilot, when enabled
 
 Once configured, these activities can reuse the same provider endpoint, API key, model, temperature, and token settings.
@@ -74,6 +77,7 @@ AI Screen Control uses a vision-capable model together with screenshots, OCR, an
 - [AI Type into Text field](Activities/AI%20Screen%20Control/AI%20Type%20into%20Text%20field.html)
 - [AI Read Screen](Activities/AI%20Screen%20Control/AI%20Read%20Screen.html)
 - [AI Verify Screen](Activities/AI%20Screen%20Control/AI%20Verify%20Screen.html)
+- [Extract Details From...](Activities/AI%20Screen%20Control/Extract%20Details%20From%20Screen.html)
 
 Keep the target application visible and unlocked. In unattended or VM execution, the Likha User Agent must run inside the active Windows user session.
 
@@ -112,6 +116,16 @@ Configure:
 - Understand the controls, forms, tables, and text visible on an application screen.
 - Find, click, and type into UI elements described in natural language.
 - Verify that an expected screen or application state is visible.
+- Extract a named set of details from a visible application into a structured Object.
+
+## Agents and AI Activities
+
+AI activities perform focused tasks inside a workflow. A Likha Agent operates at a higher level: it receives a goal, uses context to select from approved workflows or activities, observes each result, and decides whether to continue, finish, or ask for human input.
+
+See:
+
+- [Agents](21%20-%20Agents.html)
+- [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 
 ## Notes
 

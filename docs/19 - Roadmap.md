@@ -10,6 +10,8 @@ This roadmap is a working placeholder and should be adjusted as product prioriti
 
 ## Near Term
 
+- Harden agent tool permissions, execution limits, and human approval checkpoints.
+- Expand agent observability, task history, and structured result handling.
 - Harden designer run versus unattended job behavior.
 - Improve browser and desktop selector reliability.
 - Expand event trigger coverage.
@@ -19,6 +21,9 @@ This roadmap is a working placeholder and should be adjusted as product prioriti
 
 ## Mid Term
 
+- Reusable agent and tool templates.
+- Agent evaluation, test scenarios, and outcome scoring.
+- Central policy controls for distributed agent and robot deployments.
 - Package deployment to robot VMs.
 - File artifact upload from robot runs.
 - More detailed robot assignment rules.
@@ -33,4 +38,3 @@ This roadmap is a working placeholder and should be adjusted as product prioriti
 - High availability Control Room patterns.
 - Advanced queue analytics.
 - Marketplace or reusable component library.
-

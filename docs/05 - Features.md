@@ -6,6 +6,29 @@ layout: default
 
 # Features
 
+Likha combines deterministic RPA with agentic AI. Builders can create fixed workflows for predictable processes, goal-driven agents for variable work, or hybrid automations that use both.
+
+## Agents
+
+- Accept natural-language goals and supporting context.
+- Use approved flows and activities as tools.
+- Choose the next action from the current result.
+- Work with structured outputs across multiple tools.
+- Stop, retry, choose an alternate path, or request human input.
+- Preserve execution history for monitoring and review.
+
+See [Agents](21%20-%20Agents.html).
+
+## Agent Infrastructure
+
+- Agent runtime and approved tool access.
+- Control Room queues, jobs, logs, AI settings, and robot visibility.
+- Local, private VM, and distributed robot execution.
+- Runtime limits, approval points, credentials, and audit boundaries.
+- Active Windows-session execution through Likha User Agent for UI work.
+
+See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
+
 ## Process Designer
 
 - Drag or double-click activities into a workflow.
@@ -44,6 +67,8 @@ layout: default
 - Smart rule-based operations
 - System activities
 - Event triggers
+
+AI Screen Control includes **Extract Details From...** for returning a requested set of visible screen values as structured data.
 
 ## Runtime Capabilities
 
