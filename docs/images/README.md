@@ -23,3 +23,4 @@ This folder stores product screenshots used by the Likha documentation.
 ## Refreshing Screenshots
 
 Run the app locally, open the relevant pages, and replace the files in this folder with updated captures. Keep filenames stable so documentation links do not need to change.
+x
