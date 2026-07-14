@@ -10,7 +10,7 @@ layout: default
 
 No. Likha combines RPA with agentic AI. Fixed workflows handle predictable, repeatable steps, while Likha Agents can interpret a goal, select approved tools, observe results, and adapt the next action within defined limits.
 
-See [Agents](21%20-%20Agents.html) and [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
+See [Agentic AI and Likha Agents](21%20-%20Agents.html) and [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
 
 ## What is the difference between a robot, the Likha User Agent, and a Likha Agent?
 
@@ -28,7 +28,21 @@ Desktop, browser, mouse, keyboard, monitor, and message box actions need an inte
 
 ## Where are flows and runtime data stored?
 
-Local MVP data is stored in SQLite under `data/`.
+Likha uses SQLite under `data/` by default in development and `%LOCALAPPDATA%\Likha\data\rpa.db` in the installed desktop app. PostgreSQL/Supabase or Microsoft SQL Server can be selected under **Control Room > Database**.
+
+See [Database Settings](Database%20Settings.html).
+
+## Does switching databases migrate my existing data?
+
+No. Changing the database selection points Likha to another data store after restart. Flows, agents, knowledge, settings, queues, schedules, conversations, and run history remain in the previous database until they are exported or migrated separately.
+
+## How does agent delegation work?
+
+A supervisor can call only the specialist agents explicitly selected under **Allowed agent tools**. A specialist receives a focused task in its own session and keeps its own prompt, knowledge, flow permissions, model settings, and guardrails. Likha blocks self-calls and circular delegation chains.
+
+## How are risky agent actions controlled?
+
+Each flow tool has a Low, Medium, High, or Critical risk level. Guardrails can require per-message approval for High-risk flows and block Critical flows. Other rules can limit rates and message sizes, detect prompt injection, redact secrets, block terms, and restrict web domains, file locations, or email domains.
 
 ## How do I run a flow on a schedule?
 

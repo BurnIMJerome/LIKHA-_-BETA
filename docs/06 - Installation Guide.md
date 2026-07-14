@@ -94,4 +94,14 @@ See:
 - [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
 - [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 
+## Optional Shared Database Drivers
+
+SQLite works automatically and needs no additional database setup. PostgreSQL support uses a PostgreSQL connection URL. Microsoft SQL Server requires **Microsoft ODBC Driver 18 for SQL Server** on every Windows machine that connects directly to the database.
+
+After installation, configure and test the shared database under **Control Room > Database**, save the selection, and restart Likha.
+
+See:
+
+[Database Settings](Database%20Settings.html)
+
 

@@ -12,18 +12,20 @@ The architecture separates decision-making from execution. An agent interprets a
 
 ## Core Components
 
-- Agent runtime: manages goals, task context, tool selection, observations, and completion or escalation decisions.
-- Tool and flow registry: exposes only the workflows and activities approved for an agent.
+- Agent runtime: manages prompts, session context, knowledge retrieval, flow tools, specialist delegation, guardrails, and completion or escalation decisions.
+- Tool and flow registry: exposes only the workflows and specialist agents approved for an agent.
 - Desktop shell: `desktop.py`, using pywebview.
 - Web app and API: `app/main.py`, using FastAPI.
 - Workflow engine: `app/engine.py`.
-- Local database: SQLite under `data/`.
+- Database: SQLite under `data/` by default, or a configured PostgreSQL or Microsoft SQL Server database.
 - Designer UI: `static/studio.html`, `static/studio.js`, and CSS.
 - Robot service: `app/robot_service.py`.
 - User agent: `app/user_agent.py`.
 - Remote robot runtime helpers: `app/robot_runtime.py`.
 
 See [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html) for the full agent execution and governance model.
+
+See [Database Settings](Database%20Settings.html) for database requirements, activation, and switching behavior.
 
 ## Attended Setup
 
@@ -51,7 +53,7 @@ Robot machine
   Likha Control Room
   LikhaRobotService
   LikhaUserAgent
-  SQLite database
+  Selected SQLite, PostgreSQL, or SQL Server database
   Schedules, event triggers, robot jobs
 ```
 
@@ -71,7 +73,7 @@ See:
 ```text
 Control Room server
   Likha Control Room
-  SQLite database
+  Selected SQLite, PostgreSQL, or SQL Server database
   Scheduler
   Queue Management
   Robot jobs
@@ -84,7 +86,7 @@ Robot VM 1..N
   Browser/Desktop/Excel/UI automation
 ```
 
-Use this setup when a central server owns workflows, schedules, queues, robot registrations, and logs while separate VM robots execute jobs.
+Use this setup when a central server owns agents, knowledge, conversations, workflows, schedules, queues, robot registrations, and logs while separate VM robots execute jobs. PostgreSQL or Microsoft SQL Server is recommended when multiple Likha services need a shared data store.
 
 See:
 

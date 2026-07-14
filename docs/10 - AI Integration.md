@@ -29,7 +29,7 @@ AI Settings are used by AI-powered activities inside Likha, including:
 - AI Type into Text field
 - AI Read Screen
 - AI Verify Screen
-- Extract Details From...
+- AI Extract Details From
 - Likha Copilot, when enabled
 
 Once configured, these activities can reuse the same provider endpoint, API key, model, temperature, and token settings.
@@ -77,7 +77,7 @@ AI Screen Control uses a vision-capable model together with screenshots, OCR, an
 - [AI Type into Text field](Activities/AI%20Screen%20Control/AI%20Type%20into%20Text%20field.html)
 - [AI Read Screen](Activities/AI%20Screen%20Control/AI%20Read%20Screen.html)
 - [AI Verify Screen](Activities/AI%20Screen%20Control/AI%20Verify%20Screen.html)
-- [Extract Details From...](Activities/AI%20Screen%20Control/Extract%20Details%20From%20Screen.html)
+- [AI Extract Details From](Activities/AI%20Screen%20Control/AI%20Extract%20Details%20From.html)
 
 Keep the target application visible and unlocked. In unattended or VM execution, the Likha User Agent must run inside the active Windows user session.
 
@@ -116,15 +116,17 @@ Configure:
 - Understand the controls, forms, tables, and text visible on an application screen.
 - Find, click, and type into UI elements described in natural language.
 - Verify that an expected screen or application state is visible.
-- Extract a named set of details from a visible application into a structured Object.
+- Extract a named set of details from a visible application into a structured Object with AI Extract Details From.
 
 ## Agents and AI Activities
 
 AI activities perform focused tasks inside a workflow. A Likha Agent operates at a higher level: it receives a goal, uses context to select from approved workflows or activities, observes each result, and decides whether to continue, finish, or ask for human input.
 
+The current Agent Builder supports knowledge-base retrieval and citations, per-agent model settings, version history, declared flow inputs and outputs, specialist-agent delegation, deterministic guardrails, a test playground, and locally published embedded chat.
+
 See:
 
-- [Agents](21%20-%20Agents.html)
+- [Agentic AI and Likha Agents](21%20-%20Agents.html)
 - [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
 
 ## Notes

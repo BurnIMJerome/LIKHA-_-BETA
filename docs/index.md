@@ -35,8 +35,9 @@ Likha helps users automate outcomes by combining goal-driven AI agents with a lo
 
 Core capabilities:
 
-- Create agents that receive goals, use context, select approved Likha tools, and adapt to results.
-- Run agents on governed infrastructure with tool permissions, limits, logs, queues, robots, and human approval points.
+- Build versioned agents with knowledge bases, citations, session memory, approved flow tools, and specialist-agent delegation.
+- Apply deterministic agent guardrails, flow risk levels, per-message approvals, secret redaction, and destination restrictions.
+- Test agents in the playground and publish locally embedded chat experiences.
 - Build flows visually in Process Designer.
 - Run flows interactively during development.
 - Schedule unattended runs.
@@ -51,21 +52,22 @@ Core capabilities:
 - Read and write Excel workbooks.
 - Work with files, folders, APIs, scripts, and data tables.
 - Connect AI providers through Control Room AI Settings.
+- Choose SQLite, PostgreSQL/Supabase, or Microsoft SQL Server from Control Room Database settings.
 - Run robots on local machines or separate VM resources.
 
 ## Product Highlights
 
 ### Agents
 
-Build goal-driven automations that can select approved flows and activities, observe structured results, adapt the next action, and request human input when needed.
+Build goal-driven automations with grounded knowledge, citations, version history, typed flow tools, supervisor-to-specialist delegation, guardrails, a test playground, and local website embedding.
 
 Start here:
 
-[Agents](21%20-%20Agents.html)
+[Agentic AI and Likha Agents](21%20-%20Agents.html)
 
 ### Agent Infrastructure
 
-Run agents through Likha's Control Room, workflow engine, queues, robot services, active Windows user sessions, AI settings, and operational logs across local or private VM environments.
+Run agents through Likha's Control Room, workflow engine, selectable database, queues, robot services, active Windows user sessions, AI settings, audit events, and operational logs across local or private VM environments.
 
 Start here:
 
@@ -97,13 +99,21 @@ Start here:
 
 ### Control Room
 
-Use Control Room to manage flows, schedules, run logs, global variables, queues, robots, AI settings, and licensing.
+Use the redesigned Control Room to manage agents, knowledge, flows, schedules, runs, logs, global variables, queues, robots, AI settings, database settings, and licensing. It includes grouped navigation, light/dark themes, and Local Runner CPU, memory, heartbeat, and current-flow status.
 
 ![Likha Control Room - Flows](images/control-room-flows.png)
 
 Start here:
 
 [Quick Start](07%20-%20Quick%20Start.html)
+
+### Database Options
+
+Use SQLite automatically for local installations, or configure PostgreSQL/Supabase or Microsoft SQL Server for shared deployments. Test the connection before saving; the selection takes effect after restart.
+
+Start here:
+
+[Database Settings](Database%20Settings.html)
 
 ### Unattended Robots
 
@@ -201,8 +211,9 @@ The product direction is:
 - [18 - Licensing](18%20-%20Licensing.html)
 - [19 - Roadmap](19%20-%20Roadmap.html)
 - [20 - FAQ](20%20-%20FAQ.html)
-- [21 - Agents](21%20-%20Agents.html)
+- [21 - Agentic AI and Likha Agents](21%20-%20Agents.html)
 - [22 - Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
+- [Database Settings](Database%20Settings.html)
 - [AI Screen Control Activities](Activities/AI%20Screen%20Control/README.html)
 - [System Activities](Activities/System/README.html)
 
@@ -232,14 +243,23 @@ Included areas:
 - Robot service and user agent
 - Event triggers
 - Agents and agent infrastructure
+- Agent knowledge bases, flow tools, specialist delegation, guardrails, playground, and local embedding
+- SQLite, PostgreSQL/Supabase, and Microsoft SQL Server database selection
 - AI settings, AI Prompt, AI Vision, document extraction, table extraction, and knowledge search
-- AI Screen Control extraction through Extract Details From...
+- AI Screen Control extraction through AI Extract Details From
 - Data Table activities
 - Flow control and loop activities
 - File, API, scripting, monitor, message, and keyboard/mouse activities
 
 Recent improvements documented in this build:
 
+- Added the Agent Builder with knowledge ingestion, citations, versioning, typed flow tools, session memory, playground testing, and local embed publishing.
+- Added bounded supervisor-to-specialist agent delegation with separate child sessions, trace storage, cycle prevention, and inherited approval enforcement.
+- Added agent guardrails for prompt injection, sensitive data, rate and length limits, allowed destinations, High-risk approvals, Critical-risk blocking, and audit events.
+- Added selectable SQLite, PostgreSQL/Supabase, and Microsoft SQL Server databases with connection testing and locally encrypted saved credentials.
+- Added AI Extract Details From with variable-aware extraction instructions, structured Object output, status code, and `null` for missing requested values.
+- Redesigned Control Room navigation, added persistent light/dark themes, and added Local Runner CPU, memory, heartbeat, and current-flow status.
+- Refreshed Process Designer styling and added persistent theme selection plus resizable Activities, Properties, and Output panels.
 - Designer runs are separated from unattended robot queueing.
 - Desktop Click OCR/image fallback is scoped and prioritized when selected.
 - Browser selector picking prefers stable attributes such as `name` when IDs are dynamic.

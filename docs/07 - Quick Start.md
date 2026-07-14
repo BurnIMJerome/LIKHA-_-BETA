@@ -20,13 +20,21 @@ layout: default
 
 ## Control Room
 
-Control Room is the operational area for managing saved workflows, schedules, queues, robots, logs, and platform settings.
+Control Room is the operational area for managing agents, knowledge bases, saved workflows, schedules, queues, robots, runs, logs, and platform settings. Its sidebar groups pages under Automation, Operations, and Administration.
 
 ![Likha Control Room - Flows](images/control-room-flows.png)
 
 ## Flows
 
 Use Flows to create, edit, save, and run processes.
+
+## Agents
+
+Use Agents to create knowledge bases, build versioned agents, choose approved flow and specialist-agent tools, configure guardrails, test conversations in the playground, and publish a local embedded chat.
+
+See:
+
+[Agentic AI and Likha Agents](21%20-%20Agents.html)
 
 ## Scheduler
 
@@ -90,6 +98,18 @@ Use AI Settings to configure the provider, endpoint URL, API key, model, tempera
 See:
 
 [AI Prompt.md](Activities/AI%20Capabilities/AI%20Prompt.html)
+
+## Database
+
+Use Database to keep the default SQLite store or configure PostgreSQL/Supabase or Microsoft SQL Server. Test the connection, save the selection, and restart Likha to activate it. Switching databases does not migrate existing data.
+
+See:
+
+[Database Settings](Database%20Settings.html)
+
+## Themes and Local Runner
+
+Use the theme button to switch Control Room and Process Designer between light and dark themes. Control Room also shows Local Runner CPU, memory, heartbeat, and current-flow status. In Process Designer, drag the panel separators to resize Activities, Properties, and Output.
 
 ## License
 

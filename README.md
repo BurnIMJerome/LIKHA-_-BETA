@@ -16,12 +16,13 @@ Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearom
 
 Likha helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
 
-![Likha Process Designer panel tabs](images/process-designer-panels.gif)
+![Likha Process Designer panel tabs](docs/images/process-designer-panels.gif)
 
 Core capabilities:
 
-- Create agents that receive goals, use context, select approved Likha tools, and adapt to results.
-- Run agents on governed infrastructure with tool permissions, limits, logs, queues, robots, and human approval points.
+- Build versioned agents with knowledge bases, citations, session memory, approved flow tools, and specialist-agent delegation.
+- Apply deterministic agent guardrails, flow risk levels, per-message approvals, secret redaction, and destination restrictions.
+- Test agents in the playground and publish locally embedded chat experiences.
 - Build flows visually in Process Designer.
 - Run flows interactively during development.
 - Schedule unattended runs.
@@ -36,21 +37,22 @@ Core capabilities:
 - Read and write Excel workbooks.
 - Work with files, folders, APIs, scripts, and data tables.
 - Connect AI providers through Control Room AI Settings.
+- Choose SQLite, PostgreSQL/Supabase, or Microsoft SQL Server from Control Room Database settings.
 - Run robots on local machines or separate VM resources.
 
 ## Product Highlights
 
 ### Agents
 
-Build goal-driven automations that can select approved flows and activities, observe structured results, adapt the next action, and request human input when needed.
+Build goal-driven automations with grounded knowledge, citations, version history, typed flow tools, supervisor-to-specialist delegation, guardrails, a test playground, and local website embedding.
 
 Start here:
 
-[Agents](docs/21%20-%20Agents.md)
+[Agentic AI and Likha Agents](docs/21%20-%20Agents.md)
 
 ### Agent Infrastructure
 
-Run agents through Likha's Control Room, workflow engine, queues, robot services, active Windows user sessions, AI settings, and operational logs across local or private VM environments.
+Run agents through Likha's Control Room, workflow engine, selectable database, queues, robot services, active Windows user sessions, AI settings, audit events, and operational logs across local or private VM environments.
 
 Start here:
 
@@ -62,7 +64,7 @@ Automate Windows applications using selectors, OCR/image fallback, hotkeys, scre
 
 Start here:
 
-[Desktop Automation](08%20-%20Desktop%20Automation.md)
+[Desktop Automation](docs/08%20-%20Desktop%20Automation.md)
 
 ### Browser Automation
 
@@ -70,7 +72,7 @@ Automate websites using BrowserInstance variables, selector picking, highlightin
 
 Start here:
 
-[Browser Automation](09%20-%20Browser%20Automation.md)
+[Browser Automation](docs/09%20-%20Browser%20Automation.md)
 
 ### Excel Automation
 
@@ -78,37 +80,45 @@ Launch Excel, read ranges, write ranges, read and write cells, execute macros, g
 
 Start here:
 
-[Excel Automation](11%20-%20Excel%20Automation.md)
+[Excel Automation](docs/11%20-%20Excel%20Automation.md)
 
 ### Control Room
 
-Use Control Room to manage flows, schedules, run logs, global variables, queues, robots, AI settings, and licensing.
+Use the redesigned Control Room to manage agents, knowledge, flows, schedules, runs, logs, global variables, queues, robots, AI settings, database settings, and licensing. It includes grouped navigation, light/dark themes, and Local Runner CPU, memory, heartbeat, and current-flow status.
 
-![Likha Control Room - Flows](images/control-room-flows.png)
+![Likha Control Room - Flows](docs/images/control-room-flows.png)
 
 Start here:
 
-[Quick Start](07%20-%20Quick%20Start.md)
+[Quick Start](docs/07%20-%20Quick%20Start.md)
+
+### Database Options
+
+Use SQLite automatically for local installations, or configure PostgreSQL/Supabase or Microsoft SQL Server for shared deployments. Test the connection before saving; the selection takes effect after restart.
+
+Start here:
+
+[Database Settings](docs/Database%20Settings.md)
 
 ### Unattended Robots
 
 Run scheduled and triggered jobs through `LikhaRobotService` and `LikhaUserAgent`, including distributed VM robot setups.
 
-![Likha Control Room - Robots](images/control-room-robots.png)
+![Likha Control Room - Robots](docs/images/control-room-robots.png)
 
 Start here:
 
-[Orchestrator](17%20-%20Orchestrator.md)
+[Orchestrator](docs/17%20-%20Orchestrator.md)
 
 ### AI Integration
 
 Bring your own AI provider and configure it in Control Room. Likha provides workflow activities for prompting, document field extraction, vision, table extraction, and knowledge search without forcing a separate AI platform subscription.
 
-![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
+![Likha Control Room - AI Settings](docs/images/control-room-ai-settings.png)
 
 Start here:
 
-[AI Integration](10%20-%20AI%20Integration.md)
+[AI Integration](docs/10%20-%20AI%20Integration.md)
 
 ## Advantages
 
@@ -166,38 +176,39 @@ The product direction is:
 
 ## Documentation Map
 
-- [01 - Founder's Manifesto](01%20-%20Dev's%20Manifesto.md)
-- [02 - Product Overview](02%20-%20Product%20Overview.md)
-- [03 - Why Likha](03%20-%20Why%20Likha.md)
-- [04 - Architecture](04%20-%20Architecture.md)
-- [05 - Features](05%20-%20Features.md)
-- [06 - Installation Guide](06%20-%20Installation%20Guide.md)
-- [07 - Quick Start](07%20-%20Quick%20Start.md)
-- [08 - Desktop Automation](08%20-%20Desktop%20Automation.md)
-- [09 - Browser Automation](09%20-%20Browser%20Automation.md)
-- [10 - AI Integration](10%20-%20AI%20Integration.md)
-- [11 - Excel Automation](11%20-%20Excel%20Automation.md)
-- [12 - Data and Data Table Activities](12%20-%20Data%20and%20Data%20Table%20Activities.md)
-- [13 - Flow Control and Loops](13%20-%20Flow%20Control%20and%20Loops.md)
-- [14 - Input, Monitor, and Message Activities](14%20-%20Input,%20Monitor,%20and%20Message%20Activities.md)
-- [15 - Files, Queues, API, and Scripting](15%20-%20Files,%20Queues,%20API,%20and%20Scripting.md)
-- [16 - Event Triggers](16%20-%20Event%20Triggers.md)
-- [17 - Orchestrator](17%20-%20Orchestrator.md)
-- [18 - Licensing](18%20-%20Licensing.md)
-- [19 - Roadmap](19%20-%20Roadmap.md)
-- [20 - FAQ](20%20-%20FAQ.md)
-- [21 - Agents](docs/21%20-%20Agents.md)
+- [01 - Founder's Manifesto](docs/01%20-%20Dev's%20Manifesto.md)
+- [02 - Product Overview](docs/02%20-%20Product%20Overview.md)
+- [03 - Why Likha](docs/03%20-%20Why%20Likha.md)
+- [04 - Architecture](docs/04%20-%20Architecture.md)
+- [05 - Features](docs/05%20-%20Features.md)
+- [06 - Installation Guide](docs/06%20-%20Installation%20Guide.md)
+- [07 - Quick Start](docs/07%20-%20Quick%20Start.md)
+- [08 - Desktop Automation](docs/08%20-%20Desktop%20Automation.md)
+- [09 - Browser Automation](docs/09%20-%20Browser%20Automation.md)
+- [10 - AI Integration](docs/10%20-%20AI%20Integration.md)
+- [11 - Excel Automation](docs/11%20-%20Excel%20Automation.md)
+- [12 - Data and Data Table Activities](docs/12%20-%20Data%20and%20Data%20Table%20Activities.md)
+- [13 - Flow Control and Loops](docs/13%20-%20Flow%20Control%20and%20Loops.md)
+- [14 - Input, Monitor, and Message Activities](docs/14%20-%20Input,%20Monitor,%20and%20Message%20Activities.md)
+- [15 - Files, Queues, API, and Scripting](docs/15%20-%20Files,%20Queues,%20API,%20and%20Scripting.md)
+- [16 - Event Triggers](docs/16%20-%20Event%20Triggers.md)
+- [17 - Orchestrator](docs/17%20-%20Orchestrator.md)
+- [18 - Licensing](docs/18%20-%20Licensing.md)
+- [19 - Roadmap](docs/19%20-%20Roadmap.md)
+- [20 - FAQ](docs/20%20-%20FAQ.md)
+- [21 - Agentic AI and Likha Agents](docs/21%20-%20Agents.md)
 - [22 - Agent Infrastructure](docs/22%20-%20Agent%20Infrastructure.md)
+- [Database Settings](docs/Database%20Settings.md)
 - [AI Screen Control Activities](docs/Activities/AI%20Screen%20Control/README.md)
 - [System Activities](docs/Activities/System/README.md)
 
 Grouped activity documentation:
 
-[Activities](Activities/README.md)
+[Activities](docs/Activities/README.md)
 
 Image repository:
 
-[images](images/README.md)
+[images](docs/images/README.md)
 
 ## Release Notes
 
@@ -217,14 +228,23 @@ Included areas:
 - Robot service and user agent
 - Event triggers
 - Agents and agent infrastructure
+- Agent knowledge bases, flow tools, specialist delegation, guardrails, playground, and local embedding
+- SQLite, PostgreSQL/Supabase, and Microsoft SQL Server database selection
 - AI settings, AI Prompt, AI Vision, document extraction, table extraction, and knowledge search
-- AI Screen Control extraction through Extract Details From...
+- AI Screen Control extraction through AI Extract Details From
 - Data Table activities
 - Flow control and loop activities
 - File, API, scripting, monitor, message, and keyboard/mouse activities
 
 Recent improvements documented in this build:
 
+- Added the Agent Builder with knowledge ingestion, citations, versioning, typed flow tools, session memory, playground testing, and local embed publishing.
+- Added bounded supervisor-to-specialist agent delegation with separate child sessions, trace storage, cycle prevention, and inherited approval enforcement.
+- Added agent guardrails for prompt injection, sensitive data, rate and length limits, allowed destinations, High-risk approvals, Critical-risk blocking, and audit events.
+- Added selectable SQLite, PostgreSQL/Supabase, and Microsoft SQL Server databases with connection testing and locally encrypted saved credentials.
+- Added AI Extract Details From with variable-aware extraction instructions, structured Object output, status code, and `null` for missing requested values.
+- Redesigned Control Room navigation, added persistent light/dark themes, and added Local Runner CPU, memory, heartbeat, and current-flow status.
+- Refreshed Process Designer styling and added persistent theme selection plus resizable Activities, Properties, and Output panels.
 - Designer runs are separated from unattended robot queueing.
 - Desktop Click OCR/image fallback is scoped and prioritized when selected.
 - Browser selector picking prefers stable attributes such as `name` when IDs are dynamic.
@@ -248,16 +268,16 @@ Planned documentation and product areas:
 
 New users:
 
-[Quick Start](07%20-%20Quick%20Start.md)
+[Quick Start](docs/07%20-%20Quick%20Start.md)
 
 Builders:
 
-[Activities](Activities/README.md)
+[Activities](docs/Activities/README.md)
 
 Administrators:
 
-[Architecture](04%20-%20Architecture.md)
+[Architecture](docs/04%20-%20Architecture.md)
 
 Robot VM setup:
 
-[Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)
+[Distributed Control Room and VM Robot Setup](docs/Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.md)

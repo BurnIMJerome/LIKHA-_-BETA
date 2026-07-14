@@ -12,8 +12,10 @@ It combines AI reasoning with a low-code Process Designer, reusable automation f
 
 It supports:
 
-- Goal-driven agents that use approved Likha flows and activities as tools.
-- Agent infrastructure for context, tool execution, robot capacity, queues, logs, and human approval boundaries.
+- Agent Builder with knowledge bases, grounding, citations, versioned configurations, session memory, and a test playground.
+- Approved flow tools and supervisor-to-specialist agent delegation with bounded depth and call counts.
+- Deterministic guardrails for prompt injection, sensitive data, destinations, rate limits, flow risk, and approvals.
+- Local agent publishing and website embed code.
 - Desktop automation through Windows UI Automation, OCR/image fallback, and hardware input.
 - Browser automation through Playwright-powered browser instances.
 - Excel, files, data tables, queues, API calls, scripts, and flow control.
@@ -22,6 +24,7 @@ It supports:
 - Designer runs for interactive development.
 - Unattended jobs through robot service and user agent components.
 - Schedules, event triggers, robot jobs, logs, and queues.
+- SQLite, PostgreSQL/Supabase, or Microsoft SQL Server data storage selected from Control Room.
 
 ## Main Applications
 
@@ -33,7 +36,7 @@ It supports:
 
 `static/studio.html`, `static/studio.js`, and related CSS provide the process designer.
 
-`data/` stores SQLite runtime data locally.
+`data/` stores SQLite runtime data locally by default. PostgreSQL or Microsoft SQL Server can be selected under **Control Room > Database** for a shared database deployment.
 
 ## Primary User Roles
 
@@ -45,8 +48,9 @@ It supports:
 ## Existing References
 
 - [README.md](../README.html)
-- [Agents](21%20-%20Agents.html)
+- [Agentic AI and Likha Agents](21%20-%20Agents.html)
 - [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
+- [Database Settings](Database%20Settings.html)
 - [Robot Service and User Agent.md](Robot%20Service%20and%20User%20Agent.html)
 - [Distributed Control Room and VM Robot Setup.md](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
 - [Event Triggers.md](Activities/Event%20Triggers/Event%20Triggers.html)
