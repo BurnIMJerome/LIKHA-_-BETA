@@ -43,10 +43,7 @@ Likha helps users automate outcomes by combining goal-driven AI agents with a lo
     </article>
 
     <article class="video-demo-card">
-      <video controls playsinline preload="metadata" poster="Video%20Demo/Invoice%20Extraction%20thumbnail.jpg" aria-label="Invoice Extraction demonstration">
-        <source src="Video%20Demo/Invoice%20Extraction.mp4" type="video/mp4">
-        Your browser does not support embedded video. <a href="Video%20Demo/Invoice%20Extraction.mp4">Open the Invoice Extraction video demonstration</a>.
-      </video>
+      <iframe src="https://www.youtube-nocookie.com/embed/5-4EAheHYRQ" title="Invoice Extraction demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div class="video-demo-copy">
         <h3>Invoice Extraction</h3>
         <p>See Likha extract invoice details and write the structured results into Excel.</p>
