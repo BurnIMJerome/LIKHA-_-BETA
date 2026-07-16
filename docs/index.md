@@ -26,12 +26,34 @@ Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearom
 
 Likha helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
 
-### Demo of AI Screen Controller : Prompt Based UI Automation
+<section class="video-demo-section" aria-labelledby="video-demos-title">
+  <h2 id="video-demos-title">Video Demos</h2>
+  <p>See Likha automate real tasks with AI-powered screen control and document extraction.</p>
 
-<video controls playsinline preload="metadata" poster="Video%20Demo/AI%20Click%20poster%2000-54.jpg" onloadedmetadata="if (this.currentTime &lt; 4) this.currentTime = 4;" style="width: 100%; max-width: 1200px; height: auto;" aria-label="Likha AI Click activity demonstration">
-  <source src="Video%20Demo/AI%20Click.mp4#t=4" type="video/mp4">
-  Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
-</video>
+  <div class="video-demo-grid">
+    <article class="video-demo-card">
+      <video controls playsinline preload="metadata" poster="Video%20Demo/AI%20Click%20thumbnail.jpg" aria-label="AI Click demonstration">
+        <source src="Video%20Demo/AI%20Click.mp4" type="video/mp4">
+        Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
+      </video>
+      <div class="video-demo-copy">
+        <h3>AI Screen Control: AI Click</h3>
+        <p>Watch Likha use prompt-based screen understanding to locate and click a target.</p>
+      </div>
+    </article>
+
+    <article class="video-demo-card">
+      <video controls playsinline preload="metadata" poster="Video%20Demo/Invoice%20Extraction%20thumbnail.jpg" aria-label="Invoice Extraction demonstration">
+        <source src="Video%20Demo/Invoice%20Extraction.mp4" type="video/mp4">
+        Your browser does not support embedded video. <a href="Video%20Demo/Invoice%20Extraction.mp4">Open the Invoice Extraction video demonstration</a>.
+      </video>
+      <div class="video-demo-copy">
+        <h3>Invoice Extraction</h3>
+        <p>See Likha extract invoice details and write the structured results into Excel.</p>
+      </div>
+    </article>
+  </div>
+</section>
 
 Core capabilities:
 
