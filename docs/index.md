@@ -54,7 +54,7 @@ Likha helps users automate outcomes by combining goal-driven AI agents with a lo
       <iframe src="https://www.youtube-nocookie.com/embed/3UQpIU203Xo" title="Likha video demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div class="video-demo-copy">
         <h3>Likha Video Demo</h3>
-        <p>Watch Likha automate a real-world task from start to finish.</p>
+        <p>Watch Likha combine Agentic AI and automation flows seamlessly.</p>
       </div>
     </article>
   </div>
