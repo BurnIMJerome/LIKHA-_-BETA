@@ -57,6 +57,14 @@ Likha helps users automate outcomes by combining goal-driven AI agents with a lo
         <p>Watch Likha combine Agentic AI and automation flows seamlessly.</p>
       </div>
     </article>
+
+    <article class="video-demo-card">
+      <iframe src="https://www.youtube-nocookie.com/embed/afeQ1jLkGLc" title="RPA Challenge browser automation demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="video-demo-copy">
+        <h3>RPA Challenge: Browser Automation</h3>
+        <p>Watch Likha complete 70 browser form fields in under three seconds.</p>
+      </div>
+    </article>
   </div>
 </section>
 
