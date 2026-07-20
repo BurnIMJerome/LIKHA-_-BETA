@@ -364,6 +364,18 @@ textarea {
   border-color: rgba(8, 115, 111, 0.36);
 }
 
+.button-download {
+  color: var(--navy-950);
+  border-color: #eba711;
+  background: linear-gradient(135deg, #ffc74d, var(--gold-500));
+  box-shadow: 0 10px 24px rgba(255, 181, 27, 0.24);
+}
+
+.button-download:hover {
+  color: var(--navy-950);
+  box-shadow: 0 14px 30px rgba(255, 181, 27, 0.32);
+}
+
 .button-dark {
   color: var(--navy-950);
   background: var(--white);
