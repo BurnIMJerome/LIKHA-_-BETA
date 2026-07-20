@@ -9,9 +9,9 @@ page_class: home-page
 <section class="hero">
   <div class="section-shell hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Agentic AI + RPA automation</p>
+      <p class="eyebrow">Agentic AI + Automation</p>
       <h1>Build more. <span class="gradient-text">Automate everything.</span></h1>
-      <p class="hero-lead">Likha is a low-code automation platform for desktop, browser, and AI-powered workflows. Build agentic automations, orchestrate intelligent processes, and connect everything seamlessly.</p>
+      <p class="hero-lead">Likha is a low-code platform for Agentic AI and intelligent automation. Design AI agents, build desktop and browser automations, orchestrate business workflows, and integrate with your existing applications—all from a single platform.</p>
 
       <div class="hero-actions">
         <a class="button button-primary" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
