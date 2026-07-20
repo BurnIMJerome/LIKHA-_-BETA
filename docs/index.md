@@ -15,7 +15,7 @@ page_class: home-page
 
       <div class="hero-actions">
         <a class="button button-primary" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
-        <a class="button button-download" href="{{ docs_root | append: '/installer-output/LikhaSetup.exe' | relative_url }}" download>Download Installer</a>
+        <a class="button button-download" href="{{ docs_root | append: '/installer-output/LikhaSetup.exe' | relative_url }}" role="button" download aria-label="Download the Likha installer for Windows"><span class="button-download-icon" aria-hidden="true">&#8595;</span> Download Installer</a>
         <a class="button button-secondary" href="{{ docs_root | append: '/02%20-%20Product%20Overview.html' | relative_url }}">Explore Likha</a>
       </div>
 

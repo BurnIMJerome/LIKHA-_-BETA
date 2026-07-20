@@ -365,15 +365,35 @@ textarea {
 }
 
 .button-download {
+  min-height: 50px;
   color: var(--navy-950);
-  border-color: #eba711;
+  border: 2px solid #d99500;
   background: linear-gradient(135deg, #ffc74d, var(--gold-500));
   box-shadow: 0 10px 24px rgba(255, 181, 27, 0.24);
 }
 
 .button-download:hover {
   color: var(--navy-950);
+  border-color: #bf8200;
   box-shadow: 0 14px 30px rgba(255, 181, 27, 0.32);
+}
+
+.button-download:active {
+  box-shadow: 0 6px 14px rgba(255, 181, 27, 0.24);
+  transform: translateY(0);
+}
+
+.button-download-icon {
+  display: inline-grid;
+  width: 22px;
+  height: 22px;
+  color: var(--white);
+  background: var(--navy-950);
+  border-radius: 50%;
+  font-size: 0.83rem;
+  font-weight: 900;
+  line-height: 1;
+  place-items: center;
 }
 
 .button-dark {
