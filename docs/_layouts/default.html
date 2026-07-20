@@ -1,6 +1,6 @@
 ---
 ---
-{% assign docs_root = site.docs_root | default: '/docs' %}
+{% assign docs_root = site.docs_root %}
 {% assign home_path = docs_root | append: '/' %}
 {% assign page_title = page.title | default: page.name | remove: '.md' | remove: '.html' %}
 {% assign page_description = page.description | default: site.description %}
@@ -369,4 +369,3 @@
     </script>
   </body>
 </html>
-

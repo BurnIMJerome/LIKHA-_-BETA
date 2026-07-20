@@ -4,7 +4,7 @@ title: Pricing Coming Soon
 description: Flexible Likha licensing for individual developers, teams, enterprise, on-premises, and cloud-connected deployments is coming soon.
 page_class: marketing-page
 ---
-{% assign docs_root = site.docs_root | default: '/docs' %}
+{% assign docs_root = site.docs_root %}
 
 <section class="marketing-page-hero">
   <div class="section-shell">
@@ -42,4 +42,3 @@ page_class: marketing-page
     </div>
   </div>
 </section>
-

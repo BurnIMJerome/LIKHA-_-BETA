@@ -4,7 +4,7 @@ title: Likha Agentic AI and Automation
 description: Build agentic AI, desktop, browser, document, and low-code automation workflows with Likha.
 page_class: home-page
 ---
-{% assign docs_root = site.docs_root | default: '/docs' %}
+{% assign docs_root = site.docs_root %}
 
 <section class="hero">
   <div class="section-shell hero-grid">

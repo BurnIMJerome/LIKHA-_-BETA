@@ -4,7 +4,7 @@ title: Book a Demo
 description: Request a Likha demonstration covering Agentic AI, RPA, document processing, integrations, and deployment options.
 page_class: marketing-page
 ---
-{% assign docs_root = site.docs_root | default: '/docs' %}
+{% assign docs_root = site.docs_root %}
 
 <section class="marketing-page-hero">
   <div class="section-shell">
@@ -43,4 +43,3 @@ page_class: marketing-page
     </div>
   </div>
 </section>
-
