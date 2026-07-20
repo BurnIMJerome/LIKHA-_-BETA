@@ -178,9 +178,10 @@ textarea {
 
 .brand-mark img {
   display: block;
-  width: 48px;
-  height: 48px;
-  max-width: none;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 2px;
   object-fit: contain;
   object-position: center;
   transform: none;
