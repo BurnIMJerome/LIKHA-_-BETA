@@ -147,17 +147,17 @@ page_class: home-page
 
     <div class="split-visual provider-panel" aria-label="AI provider connection preview">
       <div class="provider-row">
-        <span>AI</span>
+        <span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#bot' | relative_url }}"></use></svg></span>
         <div><strong>Supported AI provider</strong><small>Connect with your own endpoint and key</small></div>
         <em>Connected</em>
       </div>
       <div class="provider-row">
-        <span>VIS</span>
+        <span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#scan-text' | relative_url }}"></use></svg></span>
         <div><strong>Vision and documents</strong><small>OCR, extraction, tables, and images</small></div>
         <em>Ready</em>
       </div>
       <div class="provider-row">
-        <span>RAG</span>
+        <span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#knowledge' | relative_url }}"></use></svg></span>
         <div><strong>Knowledge connections</strong><small>Ground agents in approved sources</small></div>
         <em>Ready</em>
       </div>
@@ -174,11 +174,11 @@ page_class: home-page
     </div>
 
     <div class="deployment-grid">
-      <article class="deployment-card"><span>DEV</span><h3>Local development</h3><p>Build and run attended automations on a Windows workstation.</p></article>
-      <article class="deployment-card"><span>DB</span><h3>Centralized database</h3><p>Use a shared database for coordinated environments and operations.</p></article>
-      <article class="deployment-card"><span>ON</span><h3>On-premises</h3><p>Operate Likha within infrastructure your organization controls.</p></article>
-      <article class="deployment-card"><span>PRI</span><h3>Private infrastructure</h3><p>Run robots and services across dedicated machines and VMs.</p></article>
-      <article class="deployment-card"><span>CLD</span><h3>Cloud-connected</h3><p>Connect private runtimes to cloud-hosted services when appropriate.</p></article>
+      <article class="deployment-card"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#desktop' | relative_url }}"></use></svg></span><h3>Local development</h3><p>Build and run attended automations on a Windows workstation.</p></article>
+      <article class="deployment-card"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#database' | relative_url }}"></use></svg></span><h3>Centralized database</h3><p>Use a shared database for coordinated environments and operations.</p></article>
+      <article class="deployment-card"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#building' | relative_url }}"></use></svg></span><h3>On-premises</h3><p>Operate Likha within infrastructure your organization controls.</p></article>
+      <article class="deployment-card"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#server' | relative_url }}"></use></svg></span><h3>Private infrastructure</h3><p>Run robots and services across dedicated machines and VMs.</p></article>
+      <article class="deployment-card"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#cloud' | relative_url }}"></use></svg></span><h3>Cloud-connected</h3><p>Connect private runtimes to cloud-hosted services when appropriate.</p></article>
     </div>
   </div>
 </section>

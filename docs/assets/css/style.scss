@@ -1049,12 +1049,18 @@ textarea {
   display: grid;
   width: 42px;
   height: 42px;
+  overflow: hidden;
   color: var(--white);
   background: linear-gradient(145deg, var(--blue-600), var(--violet-600));
   border-radius: 11px;
   font-size: 0.69rem;
   font-weight: 850;
   place-items: center;
+}
+
+.provider-row .saas-icon {
+  width: 22px;
+  height: 22px;
 }
 
 .provider-row strong {
@@ -1098,12 +1104,18 @@ textarea {
   display: grid;
   width: 38px;
   height: 38px;
+  overflow: hidden;
   color: var(--teal-700);
   background: var(--teal-100);
   border-radius: 10px;
   font-size: 0.7rem;
   font-weight: 850;
   place-items: center;
+}
+
+.deployment-card .saas-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .deployment-card h3 {
