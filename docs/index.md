@@ -1,333 +1,261 @@
 ---
 layout: default
-title: Likha Agentic AI and RPA
+title: Likha Agentic AI and Automation
+description: Build agentic AI, desktop, browser, document, and low-code automation workflows with Likha.
+page_class: home-page
 ---
+{% assign docs_root = site.docs_root | default: '/docs' %}
 
-# Likha Agentic AI and RPA
+<section class="hero">
+  <div class="section-shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Agentic AI + RPA automation</p>
+      <h1>Build more. <span class="gradient-text">Automate everything.</span></h1>
+      <p class="hero-lead">Likha is a low-code automation platform for desktop, browser, and AI-powered workflows. Build agentic automations, orchestrate intelligent processes, and connect everything seamlessly.</p>
 
-<div class="likha-logo-stage" aria-label="Likha logo">
-  <img src="Logo/likha-logo-transparent.png" alt="Likha">
-  <span class="likha-animated-cursor" aria-hidden="true"></span>
-</div>
-
-Likha is a Windows-first agentic AI and RPA automation platform for building, running, and managing intelligent agents and workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
-
-It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
-
-## Download
-
-Download link placeholder:
-
-[Download Likha Installer](https://github.com/BurnIMJerome/LIKHA-_-BETA/tree/main/docs/installer-output)
-
-Beta Version Release Note:  FOR LICENSE KEY Request - Send me an email at Jearomev@yahoo.com 
-
-## What Likha Does
-
-Likha helps users automate outcomes by combining goal-driven AI agents with a low-code Process Designer, Control Room, and robot runtime. Agents can understand context and choose approved tools, while RPA workflows provide reliable execution for repeatable business actions.
-
-<section class="video-demo-section" aria-labelledby="video-demos-title">
-  <h2 id="video-demos-title">Video Demos</h2>
-  <p>See Likha automate real tasks with AI-powered screen control and document extraction.</p>
-
-  <div class="video-demo-grid">
-    <article class="video-demo-card">
-      <video controls playsinline preload="metadata" poster="Video%20Demo/AI%20Click%20thumbnail.jpg" aria-label="AI Click demonstration">
-        <source src="Video%20Demo/AI%20Click.mp4" type="video/mp4">
-        Your browser does not support embedded video. <a href="Video%20Demo/AI%20Click.mp4">Open the AI Click video demonstration</a>.
-      </video>
-      <div class="video-demo-copy">
-        <h3>AI Screen Control: AI Click</h3>
-        <p>Watch Likha use prompt-based screen understanding to locate and click a target.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
+        <a class="button button-secondary" href="{{ docs_root | append: '/02%20-%20Product%20Overview.html' | relative_url }}">Explore Likha</a>
       </div>
-    </article>
 
-    <article class="video-demo-card">
-      <iframe src="https://www.youtube-nocookie.com/embed/5-4EAheHYRQ" title="Invoice Extraction demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="video-demo-copy">
-        <h3>Invoice Extraction</h3>
-        <p>See Likha extract invoice details and write the structured results into Excel.</p>
-      </div>
-    </article>
+      <ul class="hero-benefits" aria-label="Platform benefits">
+        <li>Low-code</li>
+        <li>Secure and private</li>
+        <li>AI-powered</li>
+      </ul>
+    </div>
 
-    <article class="video-demo-card">
-      <iframe src="https://www.youtube-nocookie.com/embed/3UQpIU203Xo" title="Likha video demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="video-demo-copy">
-        <h3>Likha Video Demo</h3>
-        <p>Watch Likha combine Agentic AI and automation flows seamlessly.</p>
+    <div class="hero-visual" aria-label="Likha Process Designer preview">
+      <div class="product-preview">
+        <div class="product-preview-bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <strong>Likha Process Designer</strong>
+        </div>
+        <img src="{{ docs_root | append: '/images/process-designer.png' | relative_url }}" alt="Likha Process Designer showing a visual automation workflow" width="1691" height="933">
       </div>
-    </article>
 
-    <article class="video-demo-card">
-      <iframe src="https://www.youtube-nocookie.com/embed/afeQ1jLkGLc" title="RPA Challenge browser automation demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="video-demo-copy">
-        <h3>RPA Challenge: Browser Automation</h3>
-        <p>Watch Likha complete 70 browser form fields in under three seconds.</p>
+      <div class="preview-agent">
+        <img src="{{ docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567-swapped-transparent.png' | relative_url }}" alt="">
+        <span>Agent connected<small>Tools and knowledge ready</small></span>
       </div>
-    </article>
+      <div class="preview-status">Local runner ready</div>
+    </div>
+  </div>
+</section>
+<section class="marketing-section" id="explore-likha">
+  <div class="section-shell">
+    <div class="section-heading">
+      <p class="section-kicker">One complete automation toolkit</p>
+      <h2>Everything you need to build intelligent automations</h2>
+      <p>From classic RPA to Agentic AI, Likha gives you the tools to design, run, and scale automations your way.</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <span class="feature-icon">
+          <img src="{{ docs_root | append: '/Logo/likha-logo-transparent.png' | relative_url }}" alt="">
+        </span>
+        <h3>Visual Flow Designer</h3>
+        <p>Drag, drop, and connect activities to build reliable workflows with minimal code. Keep each step visible, configurable, and easy to maintain.</p>
+        <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Explore the designer</a>
+      </article>
+
+      <article class="feature-card">
+        <span class="feature-icon feature-icon-agent">
+          <img src="{{ docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567-swapped-transparent.png' | relative_url }}" alt="">
+        </span>
+        <h3>Agentic AI</h3>
+        <p>Create AI agents that reason, use approved tools, work with knowledge bases, retain session context, and collaborate with specialist agents.</p>
+        <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Discover Likha Agents</a>
+      </article>
+
+      <article class="feature-card">
+        <span class="feature-icon">API</span>
+        <h3>Connect Everything</h3>
+        <p>Bring together APIs, databases, email, files, desktop applications, browser applications, scripts, and third-party systems in one flow.</p>
+        <a href="{{ docs_root | append: '/15%20-%20Files,%20Queues,%20API,%20and%20Scripting.html' | relative_url }}">View integrations</a>
+      </article>
+
+      <article class="feature-card">
+        <span class="feature-icon">RUN</span>
+        <h3>Run Anywhere</h3>
+        <p>Develop locally, operate from centralized environments, and deploy to on-premises servers, private infrastructure, or cloud-connected environments.</p>
+        <a href="{{ docs_root | append: '/22%20-%20Agent%20Infrastructure.html' | relative_url }}">Explore infrastructure</a>
+      </article>
+    </div>
+
+    <div class="capability-grid" aria-label="Additional Likha capabilities">
+      <div class="capability-item"><span>UI</span>Desktop automation</div>
+      <div class="capability-item"><span>WEB</span>Browser automation</div>
+      <div class="capability-item"><span>OCR</span>AI and OCR activities</div>
+      <div class="capability-item"><span>EVT</span>Triggers and scheduling</div>
+      <div class="capability-item"><span>HITL</span>Human-in-the-loop</div>
+      <div class="capability-item"><span>RAG</span>Knowledge base and RAG</div>
+      <div class="capability-item"><span>LOG</span>Logs and monitoring</div>
+      <div class="capability-item"><span>EXT</span>Secure, extensible architecture</div>
+    </div>
   </div>
 </section>
 
-Core capabilities:
-
-- Build versioned agents with knowledge bases, citations, session memory, approved flow tools, and specialist-agent delegation.
-- Apply deterministic agent guardrails, flow risk levels, per-message approvals, secret redaction, and destination restrictions.
-- Test agents in the playground and publish locally embedded chat experiences.
-- Build flows visually in Process Designer.
-- Run flows interactively during development.
-- Schedule unattended runs.
-- Process queue items.
-- Monitor run logs and robot jobs.
-- Use AI Capabilities for prompts, document extraction, vision, table extraction, and knowledge search.
-- Use AI Screen Control to understand, find, click, type into, read, verify, and extract specific details from visible application screens.
-- Use Smart Operations for local fuzzy matching, parsing, normalization, and extraction.
-- Use System activities to manage processes, run batch files, and inspect the robot machine and user.
-- Automate Windows desktop applications.
-- Automate modern browsers.
-- Read and write Excel workbooks.
-- Work with files, folders, APIs, scripts, and data tables.
-- Connect AI providers through Control Room AI Settings.
-- Choose SQLite, PostgreSQL/Supabase, or Microsoft SQL Server from Control Room Database settings.
-- Run robots on local machines or separate VM resources.
-
-## Product Highlights
-
-### Agents
-
-Build goal-driven automations with grounded knowledge, citations, version history, typed flow tools, supervisor-to-specialist delegation, guardrails, a test playground, and local website embedding.
-
-Start here:
-
-[Agentic AI and Likha Agents](21%20-%20Agents.html)
-
-### Agent Infrastructure
-
-Run agents through Likha's Control Room, workflow engine, selectable database, queues, robot services, active Windows user sessions, AI settings, audit events, and operational logs across local or private VM environments.
-
-Start here:
-
-[Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
-
-### Desktop Automation
-
-Automate Windows applications using selectors, OCR/image fallback, hotkeys, screenshots, text extraction, table extraction, and hardware input when needed.
-
-Start here:
-
-[Desktop Automation](08%20-%20Desktop%20Automation.html)
-
-### Browser Automation
-
-Automate websites using BrowserInstance variables, selector picking, highlighting, clicks, filling, screenshots, table extraction, OCR/image matching, and JavaScript execution.
-
-Start here:
-
-[Browser Automation](09%20-%20Browser%20Automation.html)
-
-### Excel Automation
-
-Launch Excel, read ranges, write ranges, read and write cells, execute macros, get worksheet names, and inspect last used rows and columns.
-
-Start here:
-
-[Excel Automation](11%20-%20Excel%20Automation.html)
-
-### Control Room
-
-Use the redesigned Control Room to manage agents, knowledge, flows, schedules, runs, logs, global variables, queues, robots, AI settings, database settings, and licensing. It includes grouped navigation, light/dark themes, and Local Runner CPU, memory, heartbeat, and current-flow status.
-
-![Likha Control Room - Flows](images/control-room-flows.png)
-
-Start here:
-
-[Quick Start](07%20-%20Quick%20Start.html)
-
-### Database Options
-
-Use SQLite automatically for local installations, or configure PostgreSQL/Supabase or Microsoft SQL Server for shared deployments. Test the connection before saving; the selection takes effect after restart.
-
-Start here:
-
-[Database Settings](Database%20Settings.html)
-
-### Unattended Robots
-
-Run scheduled and triggered jobs through `LikhaRobotService` and `LikhaUserAgent`, including distributed VM robot setups.
-
-![Likha Control Room - Robots](images/control-room-robots.png)
-
-Start here:
-
-[Orchestrator](17%20-%20Orchestrator.html)
-
-### AI Integration
-
-Bring your own AI provider and configure it in Control Room. Likha provides workflow activities for prompting, document field extraction, vision, table extraction, and knowledge search without forcing a separate AI platform subscription.
-
-![Likha Control Room - AI Settings](images/control-room-ai-settings.png)
-
-Start here:
-
-[AI Integration](10%20-%20AI%20Integration.html)
-
-## Advantages
-
-## Start Small
-
-Likha can run as a local desktop automation studio. A user can install it, build a flow, and run it on one machine without needing a server or enterprise orchestrator.
-
-## Scale When Needed
-
-When the automation program grows, Likha can expand into schedules, queues, Control Room, robot jobs, and VM robots.
-
-## Own The Runtime
-
-Likha is designed for teams that want control over where automation runs: local machine, on-premise server, VM robot, or private infrastructure.
-
-## Bring Your Own AI
-
-Likha connects to the AI provider configured by the user. The platform does not need to sit between the user and the provider as a markup layer.
-
-## Practical Activity Coverage
-
-Likha focuses on the activities automation builders use every day:
-
-- Browser
-- Desktop
-- Excel
-- Files
-- Queues
-- APIs
-- Scripts
-- Data tables
-- Flow control
-- Mouse and keyboard
-- Monitor
-- Message boxes
-- AI
-- Event triggers
-
-## Product Vision
-
-Likha's vision is to make RPA and agentic AI automation accessible, practical, governable, and owned by the people who build it.
-
-The product direction is:
-
-- Keep the designer approachable.
-- Keep activity behavior clear and predictable.
-- Support real-world Windows automation.
-- Let teams start locally and scale gradually.
-- Keep orchestration optional until it is needed.
-- Support private infrastructure and distributed robot setups.
-- Let users choose their AI provider.
-- Combine adaptive agent decisions with predictable workflow execution.
-- Keep agents bounded by approved tools, credentials, limits, and human approval rules.
-- Build a product that small teams can afford and developers can enjoy using.
-
-## Documentation Map
-
-- [01 - Founder's Manifesto](01%20-%20Dev's%20Manifesto.html)
-- [02 - Product Overview](02%20-%20Product%20Overview.html)
-- [03 - Why Likha](03%20-%20Why%20Likha.html)
-- [04 - Architecture](04%20-%20Architecture.html)
-- [05 - Features](05%20-%20Features.html)
-- [06 - Installation Guide](06%20-%20Installation%20Guide.html)
-- [07 - Quick Start](07%20-%20Quick%20Start.html)
-- [08 - Desktop Automation](08%20-%20Desktop%20Automation.html)
-- [09 - Browser Automation](09%20-%20Browser%20Automation.html)
-- [10 - AI Integration](10%20-%20AI%20Integration.html)
-- [11 - Excel Automation](11%20-%20Excel%20Automation.html)
-- [12 - Data and Data Table Activities](12%20-%20Data%20and%20Data%20Table%20Activities.html)
-- [13 - Flow Control and Loops](13%20-%20Flow%20Control%20and%20Loops.html)
-- [14 - Input, Monitor, and Message Activities](14%20-%20Input,%20Monitor,%20and%20Message%20Activities.html)
-- [15 - Files, Queues, API, and Scripting](15%20-%20Files,%20Queues,%20API,%20and%20Scripting.html)
-- [16 - Event Triggers](16%20-%20Event%20Triggers.html)
-- [17 - Orchestrator](17%20-%20Orchestrator.html)
-- [18 - Licensing](18%20-%20Licensing.html)
-- [19 - Roadmap](19%20-%20Roadmap.html)
-- [20 - FAQ](20%20-%20FAQ.html)
-- [21 - Agentic AI and Likha Agents](21%20-%20Agents.html)
-- [22 - Agent Infrastructure](22%20-%20Agent%20Infrastructure.html)
-- [Database Settings](Database%20Settings.html)
-- [AI Screen Control Activities](Activities/AI%20Screen%20Control/README.html)
-- [System Activities](Activities/System/README.html)
-
-Grouped activity documentation:
-
-[Activities](05%20-%20Features.html)
-
-Image repository:
-
-[images](images/README.html)
-
-## Release Notes
-
-### Current MVP
-
-This documentation set describes the current MVP state of Likha.
-
-Included areas:
-
-- Process Designer
-- Control Room
-- Desktop automation
-- Browser automation
-- Excel automation
-- Queue Management
-- Scheduler
-- Robot service and user agent
-- Event triggers
-- Agents and agent infrastructure
-- Agent knowledge bases, flow tools, specialist delegation, guardrails, playground, and local embedding
-- SQLite, PostgreSQL/Supabase, and Microsoft SQL Server database selection
-- AI settings, AI Prompt, AI Vision, document extraction, table extraction, and knowledge search
-- AI Screen Control extraction through AI Extract Details From
-- Data Table activities
-- Flow control and loop activities
-- File, API, scripting, monitor, message, and keyboard/mouse activities
-
-Recent improvements documented in this build:
-
-- Added the Agent Builder with knowledge ingestion, citations, versioning, typed flow tools, session memory, playground testing, and local embed publishing.
-- Added bounded supervisor-to-specialist agent delegation with separate child sessions, trace storage, cycle prevention, and inherited approval enforcement.
-- Added agent guardrails for prompt injection, sensitive data, rate and length limits, allowed destinations, High-risk approvals, Critical-risk blocking, and audit events.
-- Added selectable SQLite, PostgreSQL/Supabase, and Microsoft SQL Server databases with connection testing and locally encrypted saved credentials.
-- Added AI Extract Details From with variable-aware extraction instructions, structured Object output, status code, and `null` for missing requested values.
-- Redesigned Control Room navigation, added persistent light/dark themes, and added Local Runner CPU, memory, heartbeat, and current-flow status.
-- Refreshed Process Designer styling and added persistent theme selection plus resizable Activities, Properties, and Output panels.
-- Designer runs are separated from unattended robot queueing.
-- Desktop Click OCR/image fallback is scoped and prioritized when selected.
-- Browser selector picking prefers stable attributes such as `name` when IDs are dynamic.
-- Send Keys resolves workflow expressions such as `current_row["First Name"]`.
-- Excel Read Range normalizes blank cells and removes empty rows/trailing columns.
-- Activity documentation is grouped under `Documentation/Activities`.
-
-### Upcoming
-
-Planned documentation and product areas:
-
-- Final licensing details
-- Installer download link
-- More complete robot assignment rules
-- Artifact upload and screenshot collection from robot runs
-- Production database setup
-- Security hardening guide
-- Role-based access and administration guide
-
-## Useful Starting Points
-
-New users:
-
-[Quick Start](07%20-%20Quick%20Start.html)
-
-Builders:
-
-[Activities](05%20-%20Features.html)
-
-Administrators:
-
-[Architecture](04%20-%20Architecture.html)
-
-Robot VM setup:
-
-[Distributed Control Room and VM Robot Setup](Distributed%20Control%20Room%20and%20VM%20Robot%20Setup.html)
+<section class="marketing-section marketing-section-soft">
+  <div class="section-shell split-section">
+    <div class="split-copy">
+      <p class="section-kicker">Unified by design</p>
+      <h2>One platform for RPA and AI</h2>
+      <p>Likha combines predictable workflow execution with adaptive AI decision-making. Build fixed flows for repeatable processes, agents for contextual work, or hybrid automations that use both—without stitching together a separate tool for every use case.</p>
+      <ul>
+        <li>Visual workflows for reliable, repeatable execution</li>
+        <li>Governed agents that use approved tools and knowledge</li>
+        <li>Shared operations through Control Room, queues, schedules, and logs</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="button button-secondary" href="{{ docs_root | append: '/05%20-%20Features.html' | relative_url }}">See all features</a>
+      </div>
+    </div>
+
+    <figure class="split-visual">
+      <img src="{{ docs_root | append: '/images/control-room-flows.png' | relative_url }}" alt="Likha Control Room flows dashboard" width="1486" height="933" loading="lazy">
+      <figcaption class="split-visual-caption">
+        <strong>Control Room</strong>
+        <span>Manage flows, operations, and runtime activity</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="marketing-section">
+  <div class="section-shell split-section reverse">
+    <div class="split-copy">
+      <p class="section-kicker">Your models, your keys</p>
+      <h2>Bring your own AI model</h2>
+      <p>Connect directly to supported AI providers using your own API keys, endpoint, model, and request settings. Likha is provider-agnostic, so intelligent workflows are not tied to one required model or a platform-owned AI subscription.</p>
+      <ul>
+        <li>Configure provider connections in Control Room</li>
+        <li>Use AI prompts, vision, document extraction, and knowledge search</li>
+        <li>Keep control of provider choice, credentials, and usage</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="button button-secondary" href="{{ docs_root | append: '/10%20-%20AI%20Integration.html' | relative_url }}">Explore AI integration</a>
+      </div>
+    </div>
+
+    <div class="split-visual provider-panel" aria-label="AI provider connection preview">
+      <div class="provider-row">
+        <span>AI</span>
+        <div><strong>Supported AI provider</strong><small>Connect with your own endpoint and key</small></div>
+        <em>Connected</em>
+      </div>
+      <div class="provider-row">
+        <span>VIS</span>
+        <div><strong>Vision and documents</strong><small>OCR, extraction, tables, and images</small></div>
+        <em>Ready</em>
+      </div>
+      <div class="provider-row">
+        <span>RAG</span>
+        <div><strong>Knowledge connections</strong><small>Ground agents in approved sources</small></div>
+        <em>Ready</em>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="marketing-section marketing-section-soft">
+  <div class="section-shell">
+    <div class="section-heading">
+      <p class="section-kicker">Deployment flexibility</p>
+      <h2>Start locally. Scale on your terms.</h2>
+      <p>Choose the operating model that fits your automation program today, then expand without rebuilding every workflow.</p>
+    </div>
+
+    <div class="deployment-grid">
+      <article class="deployment-card"><span>DEV</span><h3>Local development</h3><p>Build and run attended automations on a Windows workstation.</p></article>
+      <article class="deployment-card"><span>DB</span><h3>Centralized database</h3><p>Use a shared database for coordinated environments and operations.</p></article>
+      <article class="deployment-card"><span>ON</span><h3>On-premises</h3><p>Operate Likha within infrastructure your organization controls.</p></article>
+      <article class="deployment-card"><span>PRI</span><h3>Private infrastructure</h3><p>Run robots and services across dedicated machines and VMs.</p></article>
+      <article class="deployment-card"><span>CLD</span><h3>Cloud-connected</h3><p>Connect private runtimes to cloud-hosted services when appropriate.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="marketing-section">
+  <div class="section-shell">
+    <div class="developer-panel">
+      <div class="developer-copy">
+        <p class="section-kicker">Built from real automation work</p>
+        <h2>Built for automation developers</h2>
+        <p>Likha is shaped by practical RPA development experience. It focuses on the capabilities builders reach for every day: clear activity behavior, expression-aware fields, reusable flows, reliable runtime execution, and an operating path from one desktop to distributed robots.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
+          <a class="button button-ghost-dark" href="https://github.com/BurnIMJerome/LIKHA-_-BETA/tree/main/docs/installer-output">Download Beta</a>
+        </div>
+      </div>
+
+      <div class="developer-principles">
+        <div><strong>Practical</strong><span>Activities for real desktop, browser, data, and document work.</span></div>
+        <div><strong>Predictable</strong><span>Visible workflow steps and governed agent tools.</span></div>
+        <div><strong>Owned by you</strong><span>Control deployment, infrastructure, and AI provider connections.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-demo-section" aria-labelledby="video-demos-title">
+  <div class="section-shell">
+    <div class="section-heading">
+      <p class="section-kicker">See Likha in action</p>
+      <h2 id="video-demos-title">Video Demos</h2>
+      <p>Watch real examples of screen control, document processing, browser automation, and Agentic AI working with automation flows.</p>
+    </div>
+
+    <div class="video-demo-grid">
+      <article class="video-demo-card">
+        <video controls playsinline preload="metadata" poster="{{ docs_root | append: '/Video%20Demo/AI%20Click%20thumbnail.jpg' | relative_url }}" aria-label="AI Click demonstration">
+          <source src="{{ docs_root | append: '/Video%20Demo/AI%20Click.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support embedded video. <a href="{{ docs_root | append: '/Video%20Demo/AI%20Click.mp4' | relative_url }}">Open the AI Click demonstration</a>.
+        </video>
+        <div class="video-demo-copy">
+          <h3>AI Screen Control: AI Click</h3>
+          <p>Watch Likha use prompt-based screen understanding to locate and click a target.</p>
+        </div>
+      </article>
+
+      <article class="video-demo-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/5-4EAheHYRQ" title="Invoice Extraction demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-demo-copy">
+          <h3>Invoice Extraction</h3>
+          <p>See Likha extract invoice details and write the structured results into Excel.</p>
+        </div>
+      </article>
+
+      <article class="video-demo-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/3UQpIU203Xo" title="Likha Agentic AI and automation flow demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-demo-copy">
+          <h3>Agentic AI + Automation Flows</h3>
+          <p>Watch Likha combine Agentic AI and automation flows seamlessly.</p>
+        </div>
+      </article>
+
+      <article class="video-demo-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/afeQ1jLkGLc" title="RPA Challenge browser automation demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-demo-copy">
+          <h3>RPA Challenge: Browser Automation</h3>
+          <p>Watch Likha complete 70 browser form fields in under three seconds.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="section-shell">
+    <div class="cta-panel">
+      <h2>Build your next automation with Likha.</h2>
+      <p>Explore the platform, learn from the documentation, and see how Likha can support your next Agentic AI or RPA workflow.</p>
+      <div class="cta-actions">
+        <a class="button button-dark" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
+        <a class="button button-ghost-dark" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
+        <a class="button button-ghost-dark" href="https://github.com/BurnIMJerome/LIKHA-_-BETA" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>

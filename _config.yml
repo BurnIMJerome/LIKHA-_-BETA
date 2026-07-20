@@ -1,5 +1,11 @@
-title: Likha Agentic AI and RPA
-description: Documentation for the Likha Windows-first agentic AI and RPA automation platform.
+title: Likha | Agentic AI and Automation
+description: Likha is a low-code RPA and Agentic AI automation platform for desktop, browser, document, and intelligent workflows.
+url: https://burnimjerome.github.io
+baseurl: /LIKHA-_-BETA
+repository: BurnIMJerome/LIKHA-_-BETA
+docs_root: /docs
+author: Likha
+lang: en
 theme: jekyll-theme-cayman
 
 plugins:
