@@ -10,7 +10,7 @@ page_class: home-page
   <div class="section-shell hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Agentic AI + Automation</p>
-      <h1>Build more. <span class="gradient-text">Automate everything.</span></h1>
+      <h1>Build Agents <span class="gradient-text">Automate everything.</span></h1>
       <p class="hero-lead">Likha is a low-code platform for Agentic AI and intelligent automation. Design AI agents, build desktop and browser automations, orchestrate business workflows, and integrate with your existing applications—all from a single platform.</p>
 
       <div class="hero-actions">
@@ -47,7 +47,7 @@ page_class: home-page
   <div class="section-shell">
     <div class="section-heading">
       <p class="section-kicker">One complete automation toolkit</p>
-      <h2>Everything you need to build intelligent automations</h2>
+      <h2>Everything you need to build intelligent agents and automations</h2>
       <p>From classic RPA to Agentic AI, Likha gives you the tools to design, run, and scale automations your way.</p>
     </div>
 
