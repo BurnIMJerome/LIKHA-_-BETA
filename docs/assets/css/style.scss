@@ -177,9 +177,13 @@ textarea {
 }
 
 .brand-mark img {
-  width: 62px;
+  display: block;
+  width: 48px;
+  height: 48px;
   max-width: none;
-  transform: translate(0, 1px);
+  object-fit: contain;
+  object-position: center;
+  transform: none;
 }
 
 .brand-name {
