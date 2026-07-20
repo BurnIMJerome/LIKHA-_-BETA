@@ -30,14 +30,23 @@ page_class: home-page
       <div class="product-preview">
         <div class="product-preview-bar" aria-hidden="true">
           <span></span><span></span><span></span>
-          <strong>Likha Process Designer</strong>
+          <strong>Likha Automation Platform</strong>
         </div>
-        <img src="{{ docs_root | append: '/images/process-designer.png' | relative_url }}" alt="Likha Process Designer showing a visual automation workflow" width="1691" height="933">
+        <div class="product-preview-images" aria-label="Likha Flow Designer and Agentic AI interfaces">
+          <img class="product-preview-slide product-preview-slide-flow" src="{{ docs_root | append: '/images/process-designer.png' | relative_url }}" alt="Likha Process Designer showing a visual automation workflow" width="1691" height="933">
+          <img class="product-preview-slide product-preview-slide-agent" src="{{ docs_root | append: '/images/Agentic%20AI.png' | relative_url }}" alt="Likha Agent Builder with knowledge bases and test playground" width="1484" height="901" loading="lazy">
+        </div>
       </div>
 
-      <div class="preview-agent">
-        <img src="{{ docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567-swapped-transparent.png' | relative_url }}" alt="">
-        <span>Flows connected<small>AI and Copilot ready</small></span>
+      <div class="preview-agent" aria-label="Connected Likha capabilities">
+        <div class="preview-agent-slide preview-agent-slide-flow">
+          <img src="{{ docs_root | append: '/Logo/likha-logo-transparent.png' | relative_url }}" alt="">
+          <span>Flows connected<small>AI and Copilot ready</small></span>
+        </div>
+        <div class="preview-agent-slide preview-agent-slide-ai">
+          <img src="{{ docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567-swapped-transparent.png' | relative_url }}" alt="">
+          <span>Agent connected<small>Tools and RAG ready</small></span>
+        </div>
       </div>
       <div class="preview-status">Local runner ready</div>
     </div>
