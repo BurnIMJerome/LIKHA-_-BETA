@@ -1289,6 +1289,46 @@ textarea {
   margin-right: auto;
 }
 
+.pricing-headline-base,
+.pricing-headline-transition {
+  display: block;
+}
+
+.pricing-headline-transition {
+  position: relative;
+  min-height: 1.2em;
+  overflow: hidden;
+}
+
+.pricing-headline-phrase {
+  position: absolute;
+  inset: 0;
+  color: transparent;
+  background: linear-gradient(100deg, var(--blue-600), var(--violet-600));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.pricing-headline-phrase-one {
+  animation: pricing-phrase-one 8s ease-in-out infinite;
+}
+
+.pricing-headline-phrase-two {
+  animation: pricing-phrase-two 8s ease-in-out infinite;
+}
+
+@keyframes pricing-phrase-one {
+  0%, 42% { opacity: 1; transform: translateY(0); }
+  50%, 92% { opacity: 0; transform: translateY(-0.35em); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pricing-phrase-two {
+  0%, 42% { opacity: 0; transform: translateY(0.35em); }
+  50%, 92% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(0.35em); }
+}
+
 .marketing-page-body {
   padding: 70px 0 104px;
 }
@@ -2096,6 +2136,18 @@ textarea {
   .preview-agent-slide-ai {
     opacity: 0;
     visibility: hidden;
+  }
+
+  .pricing-headline-transition {
+    min-height: auto;
+    overflow: visible;
+  }
+
+  .pricing-headline-phrase {
+    position: static;
+    display: block;
+    opacity: 1;
+    transform: none;
   }
 }
 

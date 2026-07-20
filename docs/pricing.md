@@ -9,7 +9,13 @@ page_class: marketing-page
 <section class="marketing-page-hero">
   <div class="section-shell">
     <p class="eyebrow">Pricing coming soon</p>
-    <h1>Flexible licensing for every stage of automation</h1>
+    <h1 class="pricing-headline">
+      <span class="pricing-headline-base">Buy once.</span>
+      <span class="pricing-headline-transition" aria-label="Automate forever. Scale without limits.">
+        <span class="pricing-headline-phrase pricing-headline-phrase-one" aria-hidden="true">Automate forever.</span>
+        <span class="pricing-headline-phrase pricing-headline-phrase-two" aria-hidden="true">Scale without limits.</span>
+      </span>
+    </h1>
     <p>Likha licensing options are being prepared for builders and organizations that want to start locally, collaborate as a team, or operate automation across private and centralized environments.</p>
   </div>
 </section>
