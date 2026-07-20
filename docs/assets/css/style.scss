@@ -858,29 +858,36 @@ textarea {
   display: grid;
   width: 54px;
   height: 54px;
-  overflow: hidden;
   color: var(--teal-700);
   border: 1px solid rgba(8, 115, 111, 0.18);
   border-radius: 15px;
   background: linear-gradient(145deg, #ffffff, var(--teal-100));
-  font-size: 0.82rem;
-  font-weight: 850;
-  letter-spacing: -0.02em;
   place-items: center;
 }
 
-.feature-icon img {
-  width: 80px;
-  max-width: none;
+.saas-icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+  overflow: visible;
 }
 
 .feature-icon-agent {
-  background: var(--navy-950);
-  border-color: rgba(255, 181, 27, 0.35);
+  color: #6947ca;
+  border-color: rgba(116, 86, 216, 0.22);
+  background: linear-gradient(145deg, #ffffff, #eee9ff);
 }
 
-.feature-icon-agent img {
-  width: 50px;
+.feature-icon-connect {
+  color: var(--blue-600);
+  border-color: rgba(49, 103, 227, 0.2);
+  background: linear-gradient(145deg, #ffffff, #e9f0ff);
+}
+
+.feature-icon-run {
+  color: #8a5b00;
+  border-color: rgba(255, 181, 27, 0.32);
+  background: linear-gradient(145deg, #ffffff, var(--gold-100));
 }
 
 .feature-card::after {
@@ -918,15 +925,19 @@ textarea {
 
 .capability-item span {
   display: grid;
-  width: 34px;
-  height: 34px;
-  flex: 0 0 34px;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
   color: var(--teal-700);
-  background: var(--teal-100);
-  border-radius: 10px;
-  font-size: 0.66rem;
-  font-weight: 850;
+  border: 1px solid rgba(8, 115, 111, 0.14);
+  background: linear-gradient(145deg, #ffffff, var(--teal-100));
+  border-radius: 11px;
   place-items: center;
+}
+
+.capability-item .saas-icon {
+  width: 21px;
+  height: 21px;
 }
 
 .split-section {
