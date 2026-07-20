@@ -858,6 +858,7 @@ textarea {
   display: grid;
   width: 54px;
   height: 54px;
+  overflow: hidden;
   color: var(--teal-700);
   border: 1px solid rgba(8, 115, 111, 0.18);
   border-radius: 15px;
@@ -869,7 +870,10 @@ textarea {
   display: block;
   width: 26px;
   height: 26px;
-  overflow: visible;
+  max-width: 100%;
+  max-height: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
 }
 
 .feature-icon-agent {
@@ -928,6 +932,7 @@ textarea {
   width: 40px;
   height: 40px;
   flex: 0 0 40px;
+  overflow: hidden;
   color: var(--teal-700);
   border: 1px solid rgba(8, 115, 111, 0.14);
   background: linear-gradient(145deg, #ffffff, var(--teal-100));

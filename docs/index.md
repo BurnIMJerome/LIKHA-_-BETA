@@ -62,28 +62,28 @@ page_class: home-page
 
     <div class="feature-grid">
       <article class="feature-card">
-        <span class="feature-icon feature-icon-flow" aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#workflow' | relative_url }}"></use></svg></span>
+        <span class="feature-icon feature-icon-flow" aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#workflow' | relative_url }}"></use></svg></span>
         <h3>Visual Flow Designer</h3>
         <p>Drag, drop, and connect activities to build reliable workflows with minimal code. Keep each step visible, configurable, and easy to maintain.</p>
         <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Explore the designer</a>
       </article>
 
       <article class="feature-card">
-        <span class="feature-icon feature-icon-agent" aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#bot' | relative_url }}"></use></svg></span>
+        <span class="feature-icon feature-icon-agent" aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#bot' | relative_url }}"></use></svg></span>
         <h3>Agentic AI</h3>
         <p>Create AI agents that reason, use approved tools, work with knowledge bases, retain session context, and collaborate with specialist agents.</p>
         <a href="{{ docs_root | append: '/21%20-%20Agents.html' | relative_url }}">Discover Likha Agents</a>
       </article>
 
       <article class="feature-card">
-        <span class="feature-icon feature-icon-connect" aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#plug' | relative_url }}"></use></svg></span>
+        <span class="feature-icon feature-icon-connect" aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#plug' | relative_url }}"></use></svg></span>
         <h3>Connect Everything</h3>
         <p>Bring together APIs, databases, email, files, desktop applications, browser applications, scripts, and third-party systems in one flow.</p>
         <a href="{{ docs_root | append: '/15%20-%20Files,%20Queues,%20API,%20and%20Scripting.html' | relative_url }}">View integrations</a>
       </article>
 
       <article class="feature-card">
-        <span class="feature-icon feature-icon-run" aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#cloud-run' | relative_url }}"></use></svg></span>
+        <span class="feature-icon feature-icon-run" aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#cloud-run' | relative_url }}"></use></svg></span>
         <h3>Run Anywhere</h3>
         <p>Develop locally, operate from centralized environments, and deploy to on-premises servers, private infrastructure, or cloud-connected environments.</p>
         <a href="{{ docs_root | append: '/22%20-%20Agent%20Infrastructure.html' | relative_url }}">Explore infrastructure</a>
@@ -91,14 +91,14 @@ page_class: home-page
     </div>
 
     <div class="capability-grid" aria-label="Additional Likha capabilities">
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#desktop' | relative_url }}"></use></svg></span>Desktop automation</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#browser' | relative_url }}"></use></svg></span>Browser automation</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#scan-text' | relative_url }}"></use></svg></span>AI and OCR activities</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#schedule' | relative_url }}"></use></svg></span>Triggers and scheduling</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#user-check' | relative_url }}"></use></svg></span>Human-in-the-loop</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#knowledge' | relative_url }}"></use></svg></span>Knowledge base and RAG</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#monitoring' | relative_url }}"></use></svg></span>Logs and monitoring</div>
-      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#shield-check' | relative_url }}"></use></svg></span>Secure, extensible architecture</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#desktop' | relative_url }}"></use></svg></span>Desktop automation</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#browser' | relative_url }}"></use></svg></span>Browser automation</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#scan-text' | relative_url }}"></use></svg></span>AI and OCR activities</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#schedule' | relative_url }}"></use></svg></span>Triggers and scheduling</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#user-check' | relative_url }}"></use></svg></span>Human-in-the-loop</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#knowledge' | relative_url }}"></use></svg></span>Knowledge base and RAG</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#monitoring' | relative_url }}"></use></svg></span>Logs and monitoring</div>
+      <div class="capability-item"><span aria-hidden="true"><svg class="saas-icon" viewBox="0 0 24 24" width="24" height="24" focusable="false"><use href="{{ docs_root | append: '/assets/icons/likha-icons.svg#shield-check' | relative_url }}"></use></svg></span>Secure, extensible architecture</div>
     </div>
   </div>
 </section>
