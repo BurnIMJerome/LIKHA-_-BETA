@@ -37,7 +37,7 @@ page_class: home-page
 
       <div class="preview-agent">
         <img src="{{ docs_root | append: '/Logo/ig_0d97a967f7ea9a88016a456413c7a08191ae238ad55f4ca567-swapped-transparent.png' | relative_url }}" alt="">
-        <span>Agent connected<small>Tools and knowledge ready</small></span>
+        <span>Flows connected<small>AI and Copilot ready</small></span>
       </div>
       <div class="preview-status">Local runner ready</div>
     </div>
