@@ -3,7 +3,7 @@
 Likha is a Windows-first agentic AI and RPA automation platform for building, running, and managing intelligent agents and workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
 It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
-
+ 
 ## Download
 
 Download link placeholder:
