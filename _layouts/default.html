@@ -1,7 +1,7 @@
 ---
 ---
 {% assign docs_root = site.docs_root %}
-{% assign home_path = docs_root | append: '/' %}
+{% assign canonical_home_url = 'https://burnimjerome.github.io/LIKHA-_-BETA/' %}
 {% assign page_title = page.title | default: page.name | remove: '.md' | remove: '.html' %}
 {% assign page_description = page.description | default: site.description %}
 {% assign favicon_path = docs_root | append: '/Logo/likha.ico' %}
@@ -36,7 +36,7 @@
 
     <header class="site-header" data-site-header>
       <div class="header-inner">
-        <a class="brand" href="{{ home_path | relative_url }}" aria-label="Likha home">
+        <a class="brand" href="{{ canonical_home_url }}" aria-label="Likha home">
           <span class="brand-mark" aria-hidden="true">
             <img src="{{ flow_logo_path | relative_url }}" alt="">
           </span>
@@ -53,7 +53,7 @@
 
         <nav class="site-navigation" id="site-navigation" aria-label="Primary navigation" data-site-navigation>
           <div class="nav-links">
-            <a href="{{ home_path | relative_url }}">Home</a>
+            <a href="{{ canonical_home_url }}">Home</a>
 
             <details class="nav-dropdown">
               <summary>Platform</summary>
@@ -110,7 +110,7 @@
                   <strong>Quick start</strong>
                   <span>Build and run your first flow.</span>
                 </a>
-                <a href="{{ home_path | append: '#video-demos-title' | relative_url }}">
+                <a href="{{ canonical_home_url }}#video-demos-title">
                   <strong>Video demos</strong>
                   <span>See real Likha automations in action.</span>
                 </a>
@@ -201,7 +201,7 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          <a class="brand brand-footer" href="{{ home_path | relative_url }}">
+          <a class="brand brand-footer" href="{{ canonical_home_url }}">
             <span class="brand-mark" aria-hidden="true"><img src="{{ flow_logo_path | relative_url }}" alt=""></span>
             <span class="brand-name">Likha</span>
           </a>
@@ -219,7 +219,7 @@
           </div>
           <div>
             <h2>Resources</h2>
-            <a href="{{ home_path | append: '#video-demos-title' | relative_url }}">Video demos</a>
+            <a href="{{ canonical_home_url }}#video-demos-title">Video demos</a>
             <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Quick start</a>
             <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">FAQ</a>
             <a href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
