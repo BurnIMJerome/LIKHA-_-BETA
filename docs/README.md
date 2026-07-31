@@ -4,9 +4,9 @@ layout: default
 
 <nav class="doc-home-link"><a href="https://burnimjerome.github.io/LIKHA-_-BETA/">&larr; Go back Home</a></nav>
 
-# Likha Agentic AI and RPA
+# Likha Agentic Process Automation
 
-Likha is a Windows-first agentic AI and RPA automation platform for building, running, and managing intelligent agents and workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
+Likha is a Windows-first Agentic Process Automation platform, also called Agentic RPA, for building, running, and managing governed AI agents and reliable workflows across desktop apps, browsers, Excel, files, queues, APIs, scripts, and AI-powered tasks.
 
 It is designed for teams that want practical automation without being forced into a large enterprise platform before they are ready.
 
@@ -165,7 +165,7 @@ Likha focuses on the activities automation builders use every day:
 
 ## Product Vision
 
-Likha's vision is to make RPA and agentic AI automation accessible, practical, governable, and owned by the people who build it.
+Likha's vision is to make Agentic Process Automation accessible, practical, governable, and owned by the people who build it.
 
 The product direction is:
 

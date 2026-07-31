@@ -6,9 +6,13 @@ layout: default
 
 # Product Overview
 
-Likha is a Windows-first agentic AI and RPA automation platform for building, running, and monitoring intelligent agents and deterministic workflows.
+Likha is a Windows-first Agentic Process Automation platform—also called Agentic RPA—for building, running, and monitoring governed AI agents and deterministic workflows.
 
-It combines AI reasoning with a low-code Process Designer, reusable automation flows, AI Screen Control, Control Room, and robot runtimes. Teams can use traditional RPA for predictable steps and agents for work that requires context, tool selection, and adaptation.
+It combines AI reasoning with a low-code Process Designer, reusable automation flows, AI Screen Control, Control Room, and robot runtimes. Teams can use deterministic RPA for predictable steps and agents for work that requires context, tool selection, and adaptation.
+
+## What Agentic Process Automation Means
+
+Agentic Process Automation combines goal-driven AI agents with governed workflow execution. Agents interpret goals, use approved knowledge and tools, and decide what should happen next. Likha flows and robot runtimes perform the resulting desktop, browser, document, data, and integration work under visible rules, approvals, logs, and operational controls.
 
 It supports:
 

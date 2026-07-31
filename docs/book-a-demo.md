@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Book a Demo
-description: Request a Likha demonstration covering Agentic AI, RPA, document processing, integrations, and deployment options.
+description: Request a Likha Agentic Process Automation demonstration covering AI agents, RPA, document processing, integrations, and deployment options.
 page_class: marketing-page
 ---
 {% assign docs_root = site.docs_root %}
@@ -19,7 +19,7 @@ page_class: marketing-page
     <div class="section-heading">
       <p class="section-kicker">What we can demonstrate</p>
       <h2>From intelligent decisions to reliable execution</h2>
-      <p>Explore how Likha brings Agentic AI and low-code automation together in one practical platform.</p>
+      <p>Explore how Likha brings governed AI agents and low-code automation together as one practical Agentic RPA platform.</p>
     </div>
 
     <div class="marketing-card-grid">

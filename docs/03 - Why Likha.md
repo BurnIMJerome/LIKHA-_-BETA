@@ -6,7 +6,7 @@ layout: default
 
 # Why Likha
 
-Likha exists for teams that want practical RPA and agentic AI automation without being forced into a large platform commitment on day one.
+Likha exists for teams that want practical Agentic Process Automation without being forced into a large platform commitment on day one.
 
 ## Problems Likha Targets
 
@@ -29,7 +29,7 @@ Likha exists for teams that want practical RPA and agentic AI automation without
 
 ## What Likha Is Not Trying To Be
 
-Likha is not only an RPA recorder or a chatbot. It combines deterministic automation with agentic AI so a goal-driven agent can choose and coordinate approved tools while Likha keeps execution observable and controlled.
+Likha is not only an RPA recorder or a chatbot. Its Agentic RPA approach combines deterministic automation with Agentic AI, so a goal-driven agent can choose and coordinate approved tools while Likha keeps execution observable and controlled.
 
 For the longer founder rationale, see:
 

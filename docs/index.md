@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Likha Agentic AI and Automation
-description: Build agentic AI, desktop, browser, document, and low-code automation workflows with Likha.
+title: Likha Agentic Process Automation
+description: Build governed AI agents and low-code desktop, browser, document, and business process automations with Likha Agentic RPA.
 page_class: home-page
 ---
 {% assign docs_root = site.docs_root %}
@@ -9,9 +9,9 @@ page_class: home-page
 <section class="hero">
   <div class="section-shell hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Agentic AI + Automation</p>
+      <p class="eyebrow">Agentic Process Automation</p>
       <h1>Build Agents <span class="gradient-text">Automate everything.</span></h1>
-      <p class="hero-lead">Likha is a low-code platform for Agentic AI and intelligent automation. Design AI agents, build desktop and browser automations, orchestrate business workflows, and integrate with your existing applications—all from a single platform.</p>
+      <p class="hero-lead">Likha is an Agentic Process Automation platform that brings governed AI agents and reliable low-code automation together. Design agents, automate desktop and browser work, orchestrate business processes, and connect your applications—all from one platform.</p>
 
       <div class="hero-actions">
         <a class="button button-primary" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>
@@ -57,7 +57,7 @@ page_class: home-page
     <div class="section-heading">
       <p class="section-kicker">One complete automation toolkit</p>
       <h2>Everything you need to build intelligent agents and automations</h2>
-      <p>From classic RPA to Agentic AI, Likha gives you the tools to design, run, and scale automations your way.</p>
+      <p>From deterministic workflows to governed AI agents, Likha gives you the tools to design, run, and scale Agentic RPA your way.</p>
     </div>
 
     <div class="feature-grid">
@@ -107,7 +107,7 @@ page_class: home-page
   <div class="section-shell split-section">
     <div class="split-copy">
       <p class="section-kicker">Unified by design</p>
-      <h2>One platform for RPA and AI</h2>
+      <h2>One platform for Agentic RPA</h2>
       <p>Likha combines predictable workflow execution with adaptive AI decision-making. Build fixed flows for repeatable processes, agents for contextual work, or hybrid automations that use both—without stitching together a separate tool for every use case.</p>
       <ul>
         <li>Visual workflows for reliable, repeatable execution</li>
@@ -256,7 +256,7 @@ page_class: home-page
   <div class="section-shell">
     <div class="cta-panel">
       <h2>Build your next automation with Likha.</h2>
-      <p>Explore the platform, learn from the documentation, and see how Likha can support your next Agentic AI or RPA workflow.</p>
+      <p>Explore the platform, learn from the documentation, and see how Likha can support your next Agentic Process Automation workflow.</p>
       <div class="cta-actions">
         <a class="button button-dark" href="{{ docs_root | append: '/README.html' | relative_url }}">Explore Documentation</a>
         <a class="button button-ghost-dark" href="{{ docs_root | append: '/book-a-demo.html' | relative_url }}">Book a Demo</a>

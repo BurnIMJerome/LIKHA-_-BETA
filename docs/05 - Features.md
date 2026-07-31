@@ -6,7 +6,7 @@ layout: default
 
 # Features
 
-Likha combines deterministic RPA with agentic AI. Builders can create fixed workflows for predictable processes, goal-driven agents for variable work, or hybrid automations that use both.
+Likha delivers Agentic Process Automation by combining deterministic RPA with Agentic AI. Builders can create fixed workflows for predictable processes, goal-driven agents for variable work, or hybrid automations that use both.
 
 ## Agents
 

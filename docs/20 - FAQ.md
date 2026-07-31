@@ -8,7 +8,11 @@ layout: default
 
 ## Is Likha only an RPA tool?
 
-No. Likha combines RPA with agentic AI. Fixed workflows handle predictable, repeatable steps, while Likha Agents can interpret a goal, select approved tools, observe results, and adapt the next action within defined limits.
+No. Likha is an Agentic Process Automation platform, also described as Agentic RPA. Fixed workflows handle predictable, repeatable steps, while Likha Agents can interpret a goal, select approved tools, observe results, and adapt the next action within defined limits.
+
+## What is Agentic Process Automation?
+
+Agentic Process Automation combines AI agents that can reason about a goal with controlled automation workflows that perform the work. In Likha, agents use only approved tools and knowledge, while flows, robots, guardrails, approvals, and logs keep execution reliable and observable.
 
 See [Agentic AI and Likha Agents](21%20-%20Agents.html) and [Agent Infrastructure](22%20-%20Agent%20Infrastructure.html).
 

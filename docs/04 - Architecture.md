@@ -6,7 +6,7 @@ layout: default
 
 # Architecture
 
-Likha can run as a single-machine attended studio or as a distributed agentic AI and RPA platform with a Control Room and unattended robot VMs.
+Likha can run as a single-machine attended studio or as a distributed Agentic Process Automation platform with a Control Room and unattended robot VMs.
 
 The architecture separates decision-making from execution. An agent interprets a goal and selects an approved tool; the workflow engine and robot runtime execute that tool under defined operational controls.
 
