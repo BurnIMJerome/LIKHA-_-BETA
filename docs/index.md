@@ -242,6 +242,14 @@ page_class: home-page
       </article>
 
       <article class="video-demo-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/-Zx3uE1lCBc" title="Agentic - Handwritten PR to SAP PO demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-demo-copy">
+          <h3>Agentic - Handwritten PR to SAP PO</h3>
+          <p>Watch Likha interpret a handwritten purchase requisition and orchestrate the steps needed to create a purchase order in SAP.</p>
+        </div>
+      </article>
+
+      <article class="video-demo-card">
         <iframe src="https://www.youtube-nocookie.com/embed/afeQ1jLkGLc" title="RPA Challenge browser automation demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div class="video-demo-copy">
           <h3>RPA Challenge: Browser Automation</h3>
