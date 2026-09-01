@@ -121,6 +121,8 @@
               </div>
             </details>
 
+            <a href="{{ docs_root | append: '/blog.html' | relative_url }}">Blog</a>
+
             <a class="nav-pricing" href="{{ docs_root | append: '/pricing.html' | relative_url }}">
               Pricing <span>Coming soon</span>
             </a>
@@ -219,6 +221,7 @@
           </div>
           <div>
             <h2>Resources</h2>
+            <a href="{{ docs_root | append: '/blog.html' | relative_url }}">Blog</a>
             <a href="{{ canonical_home_url }}#video-demos-title">Video demos</a>
             <a href="{{ docs_root | append: '/07%20-%20Quick%20Start.html' | relative_url }}">Quick start</a>
             <a href="{{ docs_root | append: '/20%20-%20FAQ.html' | relative_url }}">FAQ</a>
@@ -291,7 +294,8 @@
         document.querySelectorAll('.site-navigation a, .docs-sidebar a').forEach(function (link) {
           if (link.origin === window.location.origin) {
             var linkPath = decodeURIComponent(link.pathname).replace(/\/$/, '');
-            if (linkPath && linkPath === currentPath) link.setAttribute('aria-current', 'page');
+            var isCurrentBlog = /\/blog\.html$/.test(linkPath) && currentPath.indexOf(linkPath.replace(/blog\.html$/, 'blog/')) === 0;
+            if (linkPath && (linkPath === currentPath || isCurrentBlog)) link.setAttribute('aria-current', 'page');
           }
         });
 
